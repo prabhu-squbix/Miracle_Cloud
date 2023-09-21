@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "end":400,
+        "desc":"Hospitals"
+    },
+    {
+        "id":2,
+        "end":5,
+        "desc":"Patients"
+    },
+    {
+        "id":3,
+        "end":12,
+        "desc":"Countries"
+    },
+    {
+        "id":4,
+        "end":50000,
+        "desc":"Doctors & Nurses"
+    },
+    {
+        "id":5,
+        "end":20,
+        "desc":"States"
+    },
+    {
+        "id":6,
+        "end":50,
+        "desc":"Cities"
+    }
+]

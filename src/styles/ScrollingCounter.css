@@ -1,0 +1,54 @@
+.ScrollingC{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 500;
+}
+.CounterHead {
+    color: #959595;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    text-align: center;
+    padding-bottom: 68px;
+}
+.CounterBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 59.4px;
+}
+
+.EachData {
+    display: flex;
+    flex-direction: column;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    gap: 174px;
+}
+
+.Number {
+    justify-content: right;
+    color: #5E1A89;
+    text-align: right;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: -2.76px;
+    padding-bottom: 15.66px;
+}
+
+.LineSep {
+    padding-bottom: 16.15px;
+}
+
+.Cloud{
+    position: absolute;
+    z-index: 400;
+}

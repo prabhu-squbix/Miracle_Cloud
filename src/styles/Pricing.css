@@ -1,0 +1,155 @@
+.Pricing {
+    background: linear-gradient(114deg, rgba(221, 220, 254, 0.50) 0%, rgba(168, 206, 245, 0.25) 100%, rgba(179, 177, 247, 0.50) 100%);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AllPlans {
+    width: 1240px;
+    display: flex;
+    flex-direction: column;
+}
+
+.PriceHead {
+    color: #303030;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.BeforeTable {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.Module {
+    padding-left: 71px;
+    position: relative;
+    top: 180px;
+    color: #303030;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PlanNames {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    gap: 143px;
+    padding-right: 77px;
+}
+
+.PName {
+    color: #303030;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 14px;
+}
+
+.PPrice {
+    color: #7774F0;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.PText1 {
+    color: #7774F0;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.PText2 {
+    color: #303030;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 19px;
+}
+
+.SelectBtn {
+    display: inline-flex;
+    padding: 12px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: #7774F0;
+    color: #fff;
+    border-style: none;
+}
+
+.Select {
+    padding-bottom: 24px;
+}
+
+.ModuleName {
+    width: 466px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    border-style: solid;
+    border-color: #e0e0e0;
+    border-width: 0.01px;
+    border-left: none;
+    border-bottom: none;
+}
+
+.Name {
+    position: relative;
+    left: 67px;
+}
+
+.plans {
+    width: 257px;
+}
+
+.Service {
+    padding-top: 17px;
+    padding-bottom: 23px;
+    padding-left: 115px;
+    border-style: solid;
+    border-color: #e0e0e0;
+    border-width: 0.01px;
+    border-left: none;
+    border-bottom: none;
+}
+
+.End {
+    border-right: none;
+}
+
+.SelectBelow {
+    position: relative;
+    top: 40px;
+    left: 77px;
+}
+
+.PlanTable {
+    padding-bottom: 195px;
+}

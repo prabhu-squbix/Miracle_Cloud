@@ -1,0 +1,70 @@
+.AkhilHeading {
+    text-align: center;
+    padding-bottom: 17px;
+    color: #303030;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.96px;
+}
+
+.AkhilSubHeading {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    color: #303030;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.32px;
+    opacity: 0.6;
+    padding-bottom: 38px;
+}
+
+.AkhilCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 55.07px;
+}
+
+.eachCard {
+    width: 203.929px;
+    height: 226.096px;
+    flex-shrink: 0;
+    filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.10));
+    border-radius: 5.542px;
+background: #FFF;
+}
+.ProductI{
+    padding-left: 20.96px;
+}
+.ProductN {
+    padding-bottom: 10.57px;
+    color: #403F3F;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 17.733px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.ProductDesc {
+    width: 182.317px;
+    padding-left: 10.8px;
+    color: #403F3F;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 150% */
+    text-transform: capitalize;
+}

@@ -1,0 +1,64 @@
+.Navbar {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    padding: 10px 10vw;
+    opacity: 2;
+    background-color: #fff;
+    opacity: 1;
+    z-index: 2000;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+}
+
+.Menu {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+}
+
+.OptionBar {
+    height: 1px;
+    background-color: #5E1A89;
+}
+
+.option {
+    cursor: pointer;
+    gap: 1.5px;
+}
+
+.PhoneIcon {
+    width: 34px;
+    height: 34px;
+}
+
+.ContactNo {
+    color: #5E1A89;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.OptionText {
+    color: #959595;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.28px;
+}

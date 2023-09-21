@@ -1,0 +1,86 @@
+[
+    {
+        "id":1,
+        "dimg":"../DoctorTestimonialImages/doctor1.png",
+        "dname":"Dr. Y K Mishra",
+        "dspec":"Cardiac Surgeon, New Delhi, India",
+        "dtext":"“Congratulations on developing MIRACLE HIS web ERP! Many thanks for your prompt service & technical support and making our work so easy..”"
+    },
+    {
+        "id":2,
+        "dimg":"../DoctorTestimonialImages/doctor2.png",
+        "dname":"Dr. Sandeep Vaishya",
+        "dspec":"Neurosurgeon, Gurgaon, India",
+        "dtext":"“Congratulations on developing MIRACLE HIS web ERP! Many thanks for your prompt service & technical support and making our work so easy..”"
+    },
+    {
+        "id":3,
+        "dimg":"../DoctorTestimonialImages/doctor3.png",
+        "dname":"Dr. Rajeev Verma",
+        "dspec":"Orthopaedic and Joint Replacement Surgeon, New Delhi, India",
+        "dtext":"“Congratulations on developing MIRACLE HIS web ERP! Many thanks for your prompt service & technical support and making our work so easy..”"
+    },
+    {
+        "id":4,
+        "dimg":"../DoctorTestimonialImages/doctor4.png",
+        "dname":"Dr. Ajay kaul",
+        "dspec":"Cardiac Surgeon, Gurgaon, India",
+        "dtext":"“Congratulations on developing MIRACLE HIS web ERP! Many thanks for your prompt service & technical support and making our work so easy..”"
+    },
+    {
+        "id":5,
+        "dimg":"../DoctorTestimonialImages/doctor5.png",
+        "dname":"Dr Naresh Terhan",
+        "dspec":"Cardiac Surgeon, New Delhi, India",
+        "dtext":"“Congratulations on developing MIRACLE HIS web ERP! Many thanks for your prompt service & technical support and making our work so easy..”"
+    },
+    {
+        "id":6,
+        "dimg":"../DoctorTestimonialImages/doctor6.png",
+        "dname":"Dr Vinod Raina",
+        "dspec":"Medical Oncologist, Gurgaon, India",
+        "dtext":"“Congratulations on developing MIRACLE HIS web ERP! Many thanks for your prompt service & technical support and making our work so easy..”"
+    },
+    {
+        "id":7,
+        "dimg":"../DoctorTestimonialImages/doctor1.png",
+        "dname":"Dr. Y K Mishra",
+        "dspec":"Cardiac Surgeon, New Delhi, India",
+        "dtext":"“Congratulations on developing MIRACLE HIS web ERP! Many thanks for your prompt service & technical support and making our work so easy..”"
+    },
+    {
+        "id":8,
+        "dimg":"../DoctorTestimonialImages/doctor2.png",
+        "dname":"Dr. Y K Mishra",
+        "dspec":"Cardiac Surgeon, New Delhi, India",
+        "dtext":"“Congratulations on developing MIRACLE HIS web ERP! Many thanks for your prompt service & technical support and making our work so easy..”"
+    },
+    {
+        "id":9,
+        "dimg":"../DoctorTestimonialImages/doctor3.png",
+        "dname":"Dr. Y K Mishra",
+        "dspec":"Cardiac Surgeon, New Delhi, India",
+        "dtext":"“Congratulations on developing MIRACLE HIS web ERP! Many thanks for your prompt service & technical support and making our work so easy..”"
+    },
+    {
+        "id":10,
+        "dimg":"../DoctorTestimonialImages/doctor4.png",
+        "dname":"Dr. Y K Mishra",
+        "dspec":"Cardiac Surgeon, New Delhi, India",
+        "dtext":"“Congratulations on developing MIRACLE HIS web ERP! Many thanks for your prompt service & technical support and making our work so easy..”"
+    },
+    {
+        "id":11,
+        "dimg":"../DoctorTestimonialImages/doctor5.png",
+        "dname":"Dr. Y K Mishra",
+        "dspec":"Cardiac Surgeon, New Delhi, India",
+        "dtext":"“Congratulations on developing MIRACLE HIS web ERP! Many thanks for your prompt service & technical support and making our work so easy..”"
+    },
+    {
+        "id":12,
+        "dimg":"../DoctorTestimonialImages/doctor6.png",
+        "dname":"Dr. Y K Mishra",
+        "dspec":"Cardiac Surgeon, New Delhi, India",
+        "dtext":"“Congratulations on developing MIRACLE HIS web ERP! Many thanks for your prompt service & technical support and making our work so easy..”"
+    }
+]

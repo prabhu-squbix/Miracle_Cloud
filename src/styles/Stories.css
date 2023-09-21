@@ -1,0 +1,202 @@
+.fontAwesome {
+    font-family: Helvetica, 'FontAwesome', sans-serif;
+}
+
+.TopPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 94px;
+}
+
+.HeadTag {
+    color: #303030;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    padding-top: 55px;
+}
+
+.HeadDesc {
+    color: #303030;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 24px;
+    padding-bottom: 55px;
+}
+
+.SearchBtn {
+    width: 650px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid rgba(48, 48, 48, 0.25);
+    background: #FFF;
+    padding-left: 20px;
+
+}
+
+::placeholder {
+    color: #303030;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.8;
+}
+textarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Stories {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 57px;
+    justify-content: center;
+    padding-bottom: 94px;
+    padding-left: 6.95vw;
+    padding-right: 6.95vw;
+}
+
+.EachStory {
+    width: 360px;
+    flex-shrink: 0;
+    border-radius: 12.92px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    padding-left: 14px;
+    padding-bottom: 14px;
+}
+
+.StoryImage {
+    padding-top: 14px;
+    padding-bottom: 16px;
+}
+
+.Tags {
+    display: flex;
+    gap: 8px;
+    padding-bottom: 14px;
+}
+
+.EachTag {
+    padding: 5px 17px;
+    border: 1px solid #7774F0;
+    color: #7774F0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.StoryName {
+    color: #7774F0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26.648px;
+    padding-bottom: 8px;
+}
+
+.StoryDate {
+    color: #303030;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    padding-bottom: 14px;
+}
+
+.StoryDesc {
+    width: 348px;
+    height: 123px;
+    flex-shrink: 0;
+    color: #303030;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.188px;
+}
+
+.line {
+    width: 348px;
+    height: 0px;
+    flex-shrink: 0;
+    stroke-width: 0.2px;
+    stroke: #303030;
+}
+
+.StoryFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 27px;
+    padding-right: 12px;
+    align-items: center;
+}
+
+.AuthorDetails {
+    display: flex;
+    flex-direction: row;
+    gap: 12.92px;
+    align-items: center;
+}
+
+.AuthorName {
+    width: 98.466px;
+    height: 25.552px;
+    color: #303030;
+    font-size: 10.498px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24.225px;
+}
+
+.ReadBtn {
+    display: flex;
+    width: 120px;
+    padding: 8.075px 12.113px;
+    justify-content: center;
+    align-items: center;
+    gap: 8.075px;
+    border-radius: 6.46px;
+    background: #7774F0;
+    border-style: none;
+    color: #fff;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.Load {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 101px;
+}
+
+.LoadBtn {
+    display: inline-flex;
+    padding: 12px 17px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    border: 1px solid #7774F0;
+    background: #FFF;
+    color: #7774F0;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.16px;
+    cursor: pointer;
+}

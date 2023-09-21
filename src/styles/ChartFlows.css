@@ -1,0 +1,22 @@
+.SelectionBtns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
+
+}
+.WhichChartBtn{
+    color: #5E1A89;
+    border-style: solid;
+    border-color: #5E1A89;
+    border-width: 0.5px;
+    border-radius: 4px;
+    padding: 12px 43.1px;
+    cursor: pointer;
+}
+.Charts{
+    margin-left: 500px;
+}
+.EachChart{
+    zoom: 0.5;
+}

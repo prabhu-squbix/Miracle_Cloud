@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "ProdImg": "../Product1.png",
+        "ProdName": "Miracle On Cloud HIS (For Hospitals)",
+        "ProdDesc": "Our AI-powered Hospital ERP automates hospitals from 10 to 2000 beds, offering centralized database management for hospital groups.",
+        "Features": [
+            {
+                "FeatureName": "Paperless Transformation",
+                "FeatureDesc": "Streamline operations and reduce administrative tasks."
+            },
+            {
+                "FeatureName": "Financial Integration",
+                "FeatureDesc": "Seamlessly connect with financial ERPs like Navision, SAP, Tally, and Oracle."
+            },
+            {
+                "FeatureName": "Enhanced Mobility",
+                "FeatureDesc": "Improve patient care with Miracle Mobility Solutions."
+            },
+            {
+                "FeatureName": "Security",
+                "FeatureDesc": "Ensure data and financial security."
+            },
+            {
+                "FeatureName": "Inventory Management",
+                "FeatureDesc": "Efficiently manage stocks and prevent pilferage."
+            }
+        ],
+        "ProdExtro": "Upgrade your hospital today with Miracle On Cloud HIS.",
+        "ProdBtn1": "Download Brochure",
+        "ProdBtn2": "Plans & Pricing"
+    },
+    {
+        "id": 2,
+        "ProdImg": "../Product2.png",
+        "ProdName": "MoC HIS by Akhil Systems: Healthcare Excellence Simplified",
+        "ProdDesc": "",
+        "Features": [
+            {
+                "FeatureName": "Expertise",
+                "FeatureDesc": "Developed by Akhil Systems, a 27-year healthcare IT specialist, MoC HIS guarantees high performance and productivity."
+            },
+            {
+                "FeatureName": "Rapid Setup",
+                "FeatureDesc": "Easily computerize your facility within hours to days with our standard workflow."
+            },
+            {
+                "FeatureName": "Streamlined Decisions",
+                "FeatureDesc": "Our award-winning solution simplifies processes, policies, and workflows for better decision-making."
+            },
+            {
+                "FeatureName": "Compliance & Quality",
+                "FeatureDesc": "MoC HIS meets NABH, NABL, JCI, HIPAA standards, with ISO/IEC 27001:2013 certification."
+            },
+            {
+                "FeatureName": "User-Friendly",
+                "FeatureDesc": "Suitable for basic computer users, with an intuitive interface."
+            },
+            {
+                "FeatureName": "Integration",
+                "FeatureDesc": "Seamlessly connect with lab machines, biometric devices, ERPs, and more."
+            },
+            {
+                "FeatureName": "Mobile Ready",
+                "FeatureDesc": "Empower your team with mobile apps, patient portals, and appointment tools."
+            }
+        ],
+        "ProdExtro": "Unlock healthcare excellence with MoC HIS today.",
+        "ProdBtn1": "Try for FREE !",
+        "ProdBtn2": "Plans & Pricing"
+    }
+]

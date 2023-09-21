@@ -1,0 +1,127 @@
+.HeadTopic {
+    display: flex;
+    flex-direction: row;
+    padding-left: 42.6vw;
+    color: #303030;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    padding-bottom: 27px;
+    align-items: center;
+    gap: 420px;
+}
+
+.ViewAll {
+    color: #7774F0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: 0.32px;
+    text-decoration-line: underline;
+}
+
+.AllContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.MainArticle {
+    display: flex;
+    flex-direction: column;
+}
+
+.MainImg {
+    width: 447px;
+    height: 249px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.MainTopicDate {
+    padding-top: 22px;
+    width: 73px;
+    color: var(----c-black-20, #6E6E6E);
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.MainTopicHead {
+    padding-top: 11px;
+    color: #303030;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.MainTopicDesc {
+    padding-top: 7px;
+    width: 446px;
+    color: #303030;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+.MainTopicRead {
+    padding-top: 13px;
+    color: #7774F0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: 0.32px;
+    text-decoration-line: underline;
+}
+
+.sideArticles {
+    padding-left: 57px;
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+}
+
+.article {
+    display: flex;
+    flex-direction: row;
+}
+
+.SideArticleImg {
+    width: 144px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.SideArticleDesc {
+    padding-left: 20px;
+    width: 176px;
+    color: #303030;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.SideArticleTopic {
+    font-size: 18px;
+    line-height: 24.577px;
+}
+
+.SideArticleDate {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    opacity: 0.5;
+}

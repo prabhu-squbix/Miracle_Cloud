@@ -1,0 +1,57 @@
+[
+    {
+        "id":1,
+        "img":"../../BenefitImgs/B1.png",
+        "description":"Complete Cloud based solutions"
+    },
+    {
+        "id":2,
+        "img":"../../BenefitImgs/B2.png",
+        "description":"Easy to scale with user base or organization growth"
+    },
+    {
+        "id":3,
+        "img":"../../BenefitImgs/B3.png",
+        "description":"At par with healthcare standards"
+    },
+    {
+        "id":4,
+        "img":"../../BenefitImgs/B4.png",
+        "description":"Functional Clinic & Analytical Dashboard"
+    },
+    {
+        "id":5,
+        "img":"../../BenefitImgs/B5.png",
+        "description":"Comprehensive state of art standard HIS"
+    },
+    {
+        "id":6,
+        "img":"../../BenefitImgs/B6.png",
+        "description":"Perfect for small & Medium healthcare facilities"
+    },
+    {
+        "id":7,
+        "img":"../../BenefitImgs/B7.png",
+        "description":"No Server/ No IT Person"
+    },
+    {
+        "id":8,
+        "img":"../../BenefitImgs/B8.png",
+        "description":"24x7 access from anywhere with internet connectivity"
+    },
+    {
+        "id":9,
+        "img":"../../BenefitImgs/B9.png",
+        "description":"Multi-facility/location"
+    },
+    {
+        "id":10,
+        "img":"../../BenefitImgs/B10.png",
+        "description":"Multi-site reporting for Management"
+    },
+    {
+        "id":11,
+        "img":"../../BenefitImgs/B11.png",
+        "description":"Ready to use- easily deployable"
+    }
+]

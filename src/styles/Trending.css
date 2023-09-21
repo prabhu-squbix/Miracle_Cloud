@@ -1,0 +1,91 @@
+.TrendHeading {
+    padding-left: 40vw;
+    display: flex;
+    flex-direction: row;
+    color: #303030;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    padding-bottom: 27px;
+    align-items: center;
+    gap: 420px;
+}
+
+.ViewAll {
+    color: #7774F0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: 0.32px;
+    text-decoration-line: underline;
+}
+
+.Trending {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+}
+
+.Trend {
+    width: 395.76px;
+}
+
+.TrendImg {
+    border-radius: 10px;
+    background: linear-gradient(0deg, #000 -2.06%, rgba(217, 217, 217, 0.00) 69.64%);
+
+}
+
+.TrendName {
+    background-size: cover;
+    padding-top: 312.87px;
+    padding-bottom: 30.26px;
+    color: #FFF;
+    text-align: center;
+    font-size: 22.388px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32.499px;
+    /* 145.161% */
+    letter-spacing: 1.791px;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+
+.trend1 {
+    background-image: linear-gradient(0deg, #000 -2.06%, rgba(217, 217, 217, 0.00) 69.64%),
+        url(../assets/Trend1.png);
+}
+
+.trend2 {
+    background-image: linear-gradient(0deg, #000 -2.06%, rgba(217, 217, 217, 0.00) 69.64%), url(../assets/Trend2.png);
+}
+
+.trend3 {
+    background-image: linear-gradient(0deg, #000 -2.06%, rgba(217, 217, 217, 0.00) 69.64%), url(../assets/Trend3.png);
+}
+
+.TrendDesc {
+    padding-top: 30.74px;
+    display: -webkit-box;
+    width: 334px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    color: #303030;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.28px;
+    opacity: 0.6;
+}

@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "module": "Patient Registration",
+        "silver": 1,
+        "gold": 1,
+        "premium": 1
+    },
+    {
+        "id": 2,
+        "module": "Patient Registration",
+        "silver": 1,
+        "gold": 1,
+        "premium": 0
+    },
+    {
+        "id": 3,
+        "module": "Patient Registration",
+        "silver": 0,
+        "gold": 0,
+        "premium": 1
+    },
+    {
+        "id": 4,
+        "module": "Patient Registration",
+        "silver": 0,
+        "gold": 1,
+        "premium": 1
+    },
+    {
+        "id": 5,
+        "module": "Patient Registration",
+        "silver": 1,
+        "gold": 1,
+        "premium": 1
+    },
+    {
+        "id": 6,
+        "module": "Patient Registration",
+        "silver": 1,
+        "gold": 1,
+        "premium": 1
+    },
+    {
+        "id": 7,
+        "module": "Patient Registration",
+        "silver": 0,
+        "gold": 1,
+        "premium": 1
+    },
+    {
+        "id": 8,
+        "module": "Patient Registration",
+        "silver": 1,
+        "gold": 0,
+        "premium": 0
+    },
+    {
+        "id": 9,
+        "module": "Patient Registration",
+        "silver": 1,
+        "gold": 0,
+        "premium": 1
+    },
+    {
+        "id": 10,
+        "module": "Patient Registration",
+        "silver": 0,
+        "gold": 1,
+        "premium": 1
+    },
+    {
+        "id": 11,
+        "module": "Patient Registration",
+        "silver": 1,
+        "gold": 1,
+        "premium": 0
+    },
+    {
+        "id": 12,
+        "module": "Patient Registration",
+        "silver": 0,
+        "gold": 1,
+        "premium": 1
+    },
+    {
+        "id": 13,
+        "module": "Patient Registration",
+        "silver": 0,
+        "gold": 1,
+        "premium": 1
+    },
+    {
+        "id": 14,
+        "module": "Patient Registration",
+        "silver": 0,
+        "gold": 0,
+        "premium": 1
+    },
+    {
+        "id": 15,
+        "module": "Patient Registration",
+        "silver": 1,
+        "gold": 1,
+        "premium": 0
+    },
+    {
+        "id": 16,
+        "module": "Patient Registration",
+        "silver": 1,
+        "gold": 0,
+        "premium": 1
+    },
+    {
+        "id": 17,
+        "module": "Patient Registration",
+        "silver": 1,
+        "gold": 1,
+        "premium": 1
+    },
+    {
+        "id": 18,
+        "module": "Patient Registration",
+        "silver": 1,
+        "gold": 0,
+        "premium": 1
+    }
+]

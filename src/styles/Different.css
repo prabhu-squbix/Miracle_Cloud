@@ -1,0 +1,57 @@
+.Different {
+    display: flex;
+    flex-direction: row;
+    height: 516px;
+}
+
+.DifferentText {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 36.25vw;
+    color: #F9FBFC;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    background-color: #5E1A89;
+    padding: 77px 3.54vw 76px 3.47vw;
+}
+
+.DifferentTopic {
+    font-size: 36px;
+    letter-spacing: 1.08px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+.SubHeading {
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 0.57px;
+    padding-bottom: 10px;
+}
+
+.Description {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+    padding-bottom: 35px;
+    opacity: 0.9;
+}
+
+.DifferentVideo {
+    background-image: url(../assets/HowDifferent.png), linear-gradient(180deg, rgba(0, 0, 0, 0.00) 14.58%, rgba(56, 56, 56, 0.84) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 63.75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.PlayBtn{
+    background: none;
+    border: none;
+    cursor: pointer;
+}

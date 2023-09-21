@@ -1,0 +1,21 @@
+.MarqueeImgs {
+    flex-shrink: 0;
+    padding-right: 100px;
+    padding-top: 24px;
+    padding-bottom: 22px;
+}
+
+.MarqHeading {
+    color: #959595;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    text-align: center;
+    padding-bottom: 61px;
+}
+.EachClient{
+    align-items: center;
+    justify-content: center;
+}
