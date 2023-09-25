@@ -81,9 +81,9 @@
 .Close{
     background:none;
     z-index: 8500;
-    position: fixed;
-    top: 205px;
-    left: 54.3vw;
+    position: relative;
+    left: 300px;
+    bottom: 250px;
     width: 12px;
     height: 12px;
     border: none;

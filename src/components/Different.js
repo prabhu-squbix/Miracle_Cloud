@@ -1,17 +1,25 @@
 import '../styles/Different.css';
 import PlayBtn from '../assets/PlayBtn.svg';
 import PlayBtnActive from '../assets/PlayBtnActive.svg';
+import VideoDemo from '../assets/VideoDemo.gif';
 import { useState } from 'react';
 
 export default function Different() {
+    const TextWidth = window.innerWidth - 918;
     const [playBtnActive, setplayBtnActive] = useState(false);
+    const [videoActive, setVideoActive] = useState(false);
+
+    function handleVideoPlay() {
+        setVideoActive(true);
+    }
+
     function handleSetPlayBtnActive(value) {
         setplayBtnActive(value);
     }
 
     return (
         <div className="Different">
-            <div className="DifferentText">
+            <div className="DifferentText" style={{ width: `${TextWidth}px` }}>
                 <div className="DifferentTopic" style={{ fontSize: "36px" }}>How are we different</div>
                 <div>
                     <div className='SubHeading'>Technology Integration</div>
@@ -28,13 +36,18 @@ export default function Different() {
             </div>
             <div className="DifferentVideo">
                 <div onMouseOver={() => handleSetPlayBtnActive(true)}
-                    onMouseLeave={() => handleSetPlayBtnActive(false)}>
-                    <button className='PlayBtn'>
-                        <img src={PlayBtn} alt="PlayButton" style={playBtnActive ? { display: "none" } : {}}></img>
-                        <img src={PlayBtnActive} alt="PlayButton" style={playBtnActive ? {} : { display: "none" }}></img>
-                    </button>
+                    onMouseLeave={() => handleSetPlayBtnActive(false)}
+                    onClick={handleVideoPlay}>
+                    <img className='VideoPlay' style={videoActive ? {} : { display: "none" }} src={VideoDemo} alt='video'></img>
+                    {/* <video className='VideoPlay' style={videoActive ? {} : { display: "none" }} width="320" height="240"  
+                        source src="https://www.youtube.com/watch?v=igZ6PoZAszQ" type="video/mp4">
+                            </video> */}
+                            <button className='PlayBtn' style={videoActive ? { display: "none" } : {}}>
+                                <img src={PlayBtn} alt="PlayButton" style={playBtnActive ? { display: "none" } : {}}></img>
+                                <img src={PlayBtnActive} alt="PlayButton" style={playBtnActive ? {} : { display: "none" }}></img>
+                            </button>
+                        </div>
                 </div>
-            </div>
-        </div >
-    );
+            </div >
+            );
 }

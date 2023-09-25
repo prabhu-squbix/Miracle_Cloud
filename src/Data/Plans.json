@@ -2,127 +2,116 @@
     {
         "id": 1,
         "module": "Patient Registration",
-        "silver": 1,
-        "gold": 1,
-        "premium": 1
+        "plan" : "silver"
     },
     {
         "id": 2,
-        "module": "Patient Registration",
-        "silver": 1,
-        "gold": 1,
-        "premium": 0
+        "module": "Doctor Appointment",
+        "plan" : "silver"
     },
     {
         "id": 3,
-        "module": "Patient Registration",
-        "silver": 0,
-        "gold": 0,
-        "premium": 1
+        "module": "OPD Billing & Cash Collection",
+        "plan" : "silver"
     },
     {
         "id": 4,
-        "module": "Patient Registration",
-        "silver": 0,
-        "gold": 1,
-        "premium": 1
+        "module": "In-Patient A/D/T Management",
+        "plan" : "silver"
     },
     {
         "id": 5,
-        "module": "Patient Registration",
-        "silver": 1,
-        "gold": 1,
-        "premium": 1
+        "module": "Discharge Summary",
+        "plan" : "silver"
     },
     {
         "id": 6,
-        "module": "Patient Registration",
-        "silver": 1,
-        "gold": 1,
-        "premium": 1
+        "module": "In-Patient Billing & Cash Collection",
+        "plan" : "silver"
     },
     {
         "id": 7,
-        "module": "Patient Registration",
-        "silver": 0,
-        "gold": 1,
-        "premium": 1
+        "module": "Reports related to above mentioned modules",
+        "plan" : "silver"
     },
     {
         "id": 8,
-        "module": "Patient Registration",
-        "silver": 1,
-        "gold": 0,
-        "premium": 0
+        "module": "Patient SMS Emails",
+        "plan" : "silver"
     },
     {
         "id": 9,
-        "module": "Patient Registration",
-        "silver": 1,
-        "gold": 0,
-        "premium": 1
+        "module": "Admin Dashboard",
+        "plan" : "silver"
     },
     {
         "id": 10,
-        "module": "Patient Registration",
-        "silver": 0,
-        "gold": 1,
-        "premium": 1
+        "module": "IT Administration",
+        "plan" : "silver"
     },
     {
         "id": 11,
-        "module": "Patient Registration",
-        "silver": 1,
-        "gold": 1,
-        "premium": 0
+        "module": "Help Desk",
+        "plan" : "silver"
     },
     {
         "id": 12,
-        "module": "Patient Registration",
-        "silver": 0,
-        "gold": 1,
-        "premium": 1
+        "module": "Master Setup",
+        "plan" : "silver"
     },
     {
         "id": 13,
-        "module": "Patient Registration",
-        "silver": 0,
-        "gold": 1,
-        "premium": 1
+        "module": "Sample Collection",
+        "plan" : "gold"
     },
     {
         "id": 14,
-        "module": "Patient Registration",
-        "silver": 0,
-        "gold": 0,
-        "premium": 1
+        "module": "Laboratory Management",
+        "plan" : "gold"
     },
     {
         "id": 15,
-        "module": "Patient Registration",
-        "silver": 1,
-        "gold": 1,
-        "premium": 0
+        "module": "Radiology Management",
+        "plan" : "gold"
     },
     {
         "id": 16,
-        "module": "Patient Registration",
-        "silver": 1,
-        "gold": 0,
-        "premium": 1
+        "module": "Purchase Management",
+        "plan" : "gold"
     },
     {
         "id": 17,
-        "module": "Patient Registration",
-        "silver": 1,
-        "gold": 1,
-        "premium": 1
+        "module": "Material & Department Inventory Management",
+        "plan" : "gold"
     },
     {
         "id": 18,
-        "module": "Patient Registration",
-        "silver": 1,
-        "gold": 0,
-        "premium": 1
+        "module": "Drugs Store",
+        "plan" : "gold"
+    },
+    {
+        "id": 19,
+        "module": "Pharmacy Management",
+        "plan" : "gold"
+    },
+    {
+        "id": 20,
+        "module": "MIS Dashboard",
+        "plan" : "gold"
+    },
+    {
+        "id": 21,
+        "module": "e-Prescription",
+        "plan" : "premium"
+    },
+    {
+        "id": 22,
+        "module": "Medical Insurance Management",
+        "plan" : "premium"
+    },
+    {
+        "id": 23,
+        "module": "Healthcare Package Management",
+        "plan" : "gold"
     }
 ]

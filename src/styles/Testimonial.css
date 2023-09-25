@@ -1,25 +1,26 @@
-.Testimonial{
+.Testimonial {
     width: 100vw;
     display: flex;
     flex-direction: column;
 }
-.TestHeading{
+
+.TestHeading {
     padding-left: 35vw;
     display: flex;
     flex-direction: row;
-    color: #303030;
+    color: #959595;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.96px;
-    padding-bottom: 27px;
+    padding-bottom: 60px;
     align-items: center;
     gap: 280px;
 }
 
 .ViewAll {
-    color: #7774F0;
+    color: #5E1A89;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -29,19 +30,22 @@
     text-decoration-line: underline;
     cursor: context-menu;
 }
-.PrevBtn{
+
+.PrevBtn {
     width: 57px;
     height: 80px;
     position: relative;
     left: 20vw;
     bottom: 28vh;
 }
-.ScrollBtns{
+
+.ScrollBtns {
     width: 57px;
     position: relative;
     left: 81.5vw;
     bottom: 36.5vh;
 }
+
 .TestCards {
     display: flex;
     flex-direction: row;
@@ -61,7 +65,7 @@
     border-radius: 8px;
     border: 1px solid #DBDDE0;
     background: #FFF;
-    
+
 }
 
 .DoctorImg {

@@ -6,34 +6,41 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.96px;
-    padding-bottom: 109px
+    padding-bottom: 109px;
 }
-.Benefits{
+
+.Benefits {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .BenefitList {
     justify-content: center;
     display: flex;
     flex-direction: row;
-    gap: 213px;
+    gap: 80px;
     flex-wrap: wrap;
     text-wrap: wrap;
-    width: 1246px;
+    width: 1240px;
 }
 
 .ListItem {
-    width: 272px;
+    width: 172px;
     text-align: center;
 }
 
 .BenefitDesc {
     padding-top: 20px;
     color: #959595;
-    font-size: 20px;
+    font-size: 13.097px;
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
     text-transform: capitalize;
+}
+
+.BenefitImg {
+    width: 83.82px;
+    height: 83.82px;
 }

@@ -48,10 +48,5 @@
         "id":10,
         "img":"../../BenefitImgs/B10.png",
         "description":"Multi-site reporting for Management"
-    },
-    {
-        "id":11,
-        "img":"../../BenefitImgs/B11.png",
-        "description":"Ready to use- easily deployable"
     }
 ]

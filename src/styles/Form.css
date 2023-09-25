@@ -1,7 +1,6 @@
 .PopForm{
     position: fixed;
     padding-top: 100px;
-    padding-left: 38.61vw;
     top: 96px;
     left: 0;
     width: 100%;
@@ -16,8 +15,9 @@
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    width: 428px;
-    height: 500px;
+    width: 657px;
+    height: 593px;
+    flex-shrink: 0;
     border-radius: 10px;
 }
 .ClosePopup{
@@ -29,6 +29,9 @@
 }
 
 .FormInputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     padding-left: 40px;
     text-align: left;
 }
@@ -45,37 +48,34 @@
     padding-bottom: 40px;
 }
 
-.InputLabel {
-    color: var(--text-color, #252B42);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0.2px;
-    padding-bottom: 21px;
-}
-
 .InputText {
-    width: 85%;
     border-radius: 5px;
     border: 1px solid #E6E6E6;
     background: #F9F9F9;
     height: 50px;
     padding-left: 20px;
+    padding-right: 20px;
     justify-content: center;
 }
-
+.Field{
+    padding : 0;
+}
 .TextField {
-    padding-bottom: 18px;
+    padding-bottom: 20px;
 }
 
 ::placeholder {
+    color: #BDBDBD;
     padding: 11px 152px 11px 0px;
     font-size: 10px;
 }
-
-.Submit {
-    width: 90%;
+.ColOne, .ColTwo {
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+}
+.SubmitBtn {
+    width: 275px;
     color: var(--light-text-color, #FFF);
     text-align: center;
     font-size: 14px;
@@ -88,8 +88,12 @@
     background: #5E1A88;
     display: flex;
     padding: 15px 40px;
-    flex-direction: column;
-    align-items: center;
     gap: 10px;
     cursor: pointer;
+}
+.Submit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
 }

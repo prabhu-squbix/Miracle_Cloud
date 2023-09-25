@@ -1,3 +1,4 @@
+
 .SelectionBtns{
     display: flex;
     flex-direction: row;
@@ -15,8 +16,14 @@
     cursor: pointer;
 }
 .Charts{
-    margin-left: 500px;
+    background-color: #f2ebfb;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-radius: 5px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 .EachChart{
-    zoom: 0.5;
+    padding-left: 15vw;
+    width: 50vw;
 }
