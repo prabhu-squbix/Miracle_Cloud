@@ -2,7 +2,7 @@
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    
+
     position: sticky;
     top: 0;
     box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.10);
@@ -27,6 +27,12 @@
     display: flex;
     flex-direction: row;
     gap: 3vw;
+}
+
+.DropDown {
+    transform: rotate(90);
+    position: relative;
+    top: 2px;
 }
 
 .OptionBar {
@@ -57,8 +63,38 @@
     color: #959595;
     font-size: 14px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 900;
     line-height: 20px;
     /* 142.857% */
     letter-spacing: 0.28px;
+}
+
+.TheDropDown {
+    position: relative;
+    right: 20px;
+    cursor: context-menu;
+}
+
+.DropDownList {
+    z-index: 2000;
+    width: 100px;
+    position: absolute;
+    top: -12px;
+    list-style: none;
+    color: #959595;
+    background-color: #fff;
+    padding-top: 35.2px;
+}
+
+.DropListItem {
+    width: 125px;
+    padding: 7px 0 7px 14px;
+    position: relative;
+    left: -40px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.28px;
+    flex-shrink: 0;
 }

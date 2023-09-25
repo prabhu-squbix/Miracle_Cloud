@@ -9,8 +9,8 @@ export default function Benefits() {
         setOptionActive(id);
     }
     return (
-        <>
-            <div className='BeneTopic'>Benefitting <span style={{ color: "#7774F0" }}>Hospitals & Clinics</span></div>
+        <div className='AllBenefits'>
+            <div className='BeneTopic'>Benefitting <span style={{ color: "#5E1A89" }}>Hospitals & Clinics</span></div>
             <div className='Benefits'>
                 <div className='BenefitList'>
                     {ListOfBenefits.map((benefit) => (
@@ -18,15 +18,15 @@ export default function Benefits() {
                             onMouseOver={() => handleSetOptionActive(benefit.id)}
                             onMouseLeave={() => handleSetOptionActive(0)}
                             style={optionActive === benefit.id ? {} : { filter: "grayscale(100%)" }}>
-                            <img src={benefit.img} alt='benefit'></img>
+                            <img className='BenefitImg' src={benefit.img} alt='benefit'></img>
                             <div className='BenefitDesc'
-                                style={optionActive === benefit.id ? { color:"#000" } : {}}>
+                                style={optionActive === benefit.id ? { color:"#5E1A89", textDecoration:"underline" } : {}}>
                                 {benefit.description}
                             </div>
                         </div>
                     ))}
                 </div>
             </div>
-        </>
+        </div>
     );
 }

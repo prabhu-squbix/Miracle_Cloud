@@ -6,6 +6,7 @@
     padding-top: 102px;
     gap: 102px;
     fill: #fff;
+    padding-bottom: 100px;
 }
 .ProductImg{
     z-index: 500;
@@ -19,8 +20,9 @@
     display: flex;
     flex-direction: row;
     flex-shrink: 0;
-    background-color: #FFF;
+    background-color: #f7f3f9;
     padding-right: 116.6px;
+    border-radius: 7PX;
 }
 
 .Intro {
@@ -94,7 +96,6 @@
 .ProdBtns {
     display: flex;
     gap: 21px;
-    padding-bottom: 100px;
 }
 
 .Btn1 {
@@ -108,13 +109,13 @@
     border-radius: 4px;
     gap: 21px;
     text-align: center;
-    border: 1px solid #7774F0;
+    border: 1px solid #5e1a89;
     background: #FFF;
-    color: #7774F0;
+    color: #5e1a89;
 }
 
 .Btn2 {
-    background: #7774F0;
+    background: #5e1a89;
     border-style: none;
     display: flex;
     width: 179px;

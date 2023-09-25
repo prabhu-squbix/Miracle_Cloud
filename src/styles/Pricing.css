@@ -1,5 +1,4 @@
 .Pricing {
-    background: linear-gradient(114deg, rgba(221, 220, 254, 0.50) 0%, rgba(168, 206, 245, 0.25) 100%, rgba(179, 177, 247, 0.50) 100%);
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -20,77 +19,8 @@
     line-height: normal;
     letter-spacing: 0.96px;
     text-align: center;
-    padding-top: 60px;
-}
-
-.BeforeTable {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 60px;
-}
-
-.Module {
-    padding-left: 71px;
-    position: relative;
-    top: 180px;
-    color: #303030;
-    text-align: center;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-.Plan {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.PlanNames {
-    display: flex;
-    flex-direction: row;
-    align-items: right;
-    gap: 143px;
-    padding-right: 77px;
-}
-
-.PName {
-    color: #303030;
-    text-align: center;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-bottom: 14px;
-}
-
-.PPrice {
-    color: #7774F0;
-    text-align: center;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.PText1 {
-    color: #7774F0;
-    font-size: 21.333px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.PText2 {
-    color: #303030;
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-bottom: 19px;
+    padding-top: 88px;
+    padding-bottom: 88px;
 }
 
 .SelectBtn {
@@ -100,56 +30,109 @@
     align-items: center;
     gap: 8px;
     border-radius: 4px;
-    background: #7774F0;
+    background: #5E1A89;
     color: #fff;
     border-style: none;
+    width: 246px;
+    cursor: pointer;
 }
 
-.Select {
-    padding-bottom: 24px;
+.Plans {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 45px;
+    padding-bottom: 218px;
 }
 
-.ModuleName {
-    width: 466px;
-    padding-top: 21px;
-    padding-bottom: 21px;
-    border-style: solid;
-    border-color: #e0e0e0;
-    border-width: 0.01px;
-    border-left: none;
-    border-bottom: none;
+.EachPlan {
+    height: ;
+    padding: 50px 40px;
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+    background: var(--light-background-color, #FFF);
+}
+.Silver{
+    height: 873px;
+}
+.Gold{
+    height: 810px;
+}
+.Premium{
+    height: 463px;
+}
+.PlanName {
+    color: #303030;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    padding-bottom: 45px;
 }
 
-.Name {
-    position: relative;
-    left: 67px;
+.PlanDesc {
+    padding-left: 35px;
+    text-align: center;
+    width: 176px;
+    color: #959595;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    padding-bottom: 45px;
 }
 
-.plans {
-    width: 257px;
+.ServicesList {
+    list-style: none;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-.Service {
-    padding-top: 17px;
-    padding-bottom: 23px;
-    padding-left: 115px;
-    border-style: solid;
-    border-color: #e0e0e0;
-    border-width: 0.01px;
-    border-left: none;
-    border-bottom: none;
+.greenTick {
+    padding-right: 10px;
 }
 
-.End {
-    border-right: none;
+.BtnSection {
+    padding-top: 46.38px;
 }
 
-.SelectBelow {
-    position: relative;
-    top: 40px;
-    left: 77px;
+.ServiceName {
+    width: 205px;
+    color: #303030;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 0.2px;
 }
 
-.PlanTable {
-    padding-bottom: 195px;
+.Already {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 16.37px;
+    color: #303030;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+.Plus{
+    text-align: center;
+    color: #303030;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.2px;
+padding-bottom: 15px;
 }

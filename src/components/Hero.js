@@ -79,14 +79,14 @@ backdropFilter: "blur(25px)"} : {}}>
                 {
                     close => (
                         <div className='modal'>
+                        <div>
+                            <button className='Close' onClick=
+                                {() => close()}>
+                                  <img src={ClosePopup} alt='close' onClick={handlePopupInactive}></img>
+                            </button>
+                        </div>
                             <div className='content'>
                                 <Form />
-                            </div>
-                            <div>
-                                <button className='Close' onClick=
-                                    {() => close()}>
-                                      <img src={ClosePopup} alt='close' onClick={handlePopupInactive}></img>
-                                </button>
                             </div>
                         </div>
                     )

@@ -44,9 +44,9 @@ export default function Footer() {
             <div className='Section'>
                 <div className='SectionTitle'>Social Media</div>
                 <div className='SocialContent'>
-                    <div className='icon' onMouseOver={()=>handleSetIconActive(1)} onMouseLeave={handleSetIconInactive} style={iconActive===1?{color:"#7774F0"}:{}}><i class="fa-brands fa-facebook"></i></div>
-                    <div className='icon' onMouseOver={()=>handleSetIconActive(2)} onMouseLeave={handleSetIconInactive} style={iconActive===2?{color:"#7774F0"}:{}}><i class="fa-brands fa-instagram"></i></div>
-                    <div className='icon' onMouseOver={()=>handleSetIconActive(3)} onMouseLeave={handleSetIconInactive} style={iconActive===3?{color:"#7774F0"}:{}}><i class="fa-brands fa-twitter"></i></div>
+                    <div className='icon' onMouseOver={()=>handleSetIconActive(1)} onMouseLeave={handleSetIconInactive} style={iconActive===1?{color:"#5E1A89"}:{}}><i class="fa-brands fa-facebook"></i></div>
+                    <div className='icon' onMouseOver={()=>handleSetIconActive(2)} onMouseLeave={handleSetIconInactive} style={iconActive===2?{color:"#5E1A89"}:{}}><i class="fa-brands fa-instagram"></i></div>
+                    <div className='icon' onMouseOver={()=>handleSetIconActive(3)} onMouseLeave={handleSetIconInactive} style={iconActive===3?{color:"#5E1A89"}:{}}><i class="fa-brands fa-twitter"></i></div>
                 </div>
             </div>
         </div>

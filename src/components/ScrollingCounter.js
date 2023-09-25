@@ -18,7 +18,7 @@ export default function ScrollingCounter() {
                         <div className='row1'>
                             {MainData.map((data) => (
                                 <div className='EachData' key={data.id} style={data.id <= 3 ? {} : { display: "none" }}>
-                                    <div className='Number'>{counterOn && <CountUp start={0} end={data.end} duration={4} delay={0} />}<span style={data.id === 2 ? {} : { display: "none" }}> Million</span> <span style={{ position: "relative", bottom: "30px" }}>+</span></div>
+                                    <div className='Number'>{counterOn && <CountUp start={0} end={data.end} duration={2} delay={0} />}<span style={data.id === 2 ? {} : { display: "none" }}> Million</span> <span style={{ position: "relative", bottom: "30px" }}>+</span></div>
                                     <div className='LineSep'><img src={ScrollSeparator} alt='line'></img></div>
                                     <div className='CountDesc'>{data.desc}</div>
                                 </div>
@@ -26,7 +26,7 @@ export default function ScrollingCounter() {
                         <div className='row1'>
                             {MainData.map((data) => (
                                 <div className='EachData' key={data.id} style={data.id > 3 ? {} : { display: "none" }}>
-                                    <div className='Number'>{counterOn && <CountUp start={0} end={data.end} duration={4} delay={0} />}<span style={data.id === 2 ? {} : { display: "none" }}> Million</span> <span style={{ position: "relative", bottom: "30px" }}>+</span></div>
+                                    <div className='Number'>{counterOn && <CountUp start={0} end={data.end} duration={2} delay={0} />}<span style={data.id === 2 ? {} : { display: "none" }}> Million</span> <span style={{ position: "relative", bottom: "30px" }}>+</span></div>
                                     <div className='LineSep'><img src={ScrollSeparator} alt='line'></img></div>
                                     <div className='CountDesc'>{data.desc}</div>
                                 </div>

@@ -1,5 +1,5 @@
 import Benefits from "../components/Benefits";
-import ChartFlows from "../components/Chart";
+import ChartFlows from "../components/ChartFlows";
 import Different from "../components/Different";
 import Hero from "../components/Hero";
 import Marq from "../components/Marq";
