@@ -8,7 +8,7 @@ import Stories from '../pages/Stories';
 import Pricing from '../pages/Pricing';
 import DropDown from '../assets/DropDown.svg';
 import { motion } from "framer-motion";
-import Product1HIS from './Product1HIS';
+import Product from './Product';
 
 export default function Navbar() {
     const [optionActive, setOptionActive] = useState(1);
@@ -55,21 +55,21 @@ export default function Navbar() {
                         <div className="OptionBar" style={optionActive === 1 ? {} : { display: "none" }}></div>
                     </div>
                     <div className="option" onMouseOver={() => handleDropdown(true)} onMouseLeave={() => handleDropdown(false)}>
-                        <div className="OptionText" style={prodActive !== 0 && optionActive===0? { color: "#5E1A89" } : {}}>Solutions {dropdown ? < motion.img src={DropDown} style={{ position: "relative", top: "2px" }}
+                        <div className="OptionText" style={prodActive !== 0 && optionActive === 0 ? { color: "#5E1A89" } : {}}>Solutions {dropdown ? < motion.img src={DropDown} style={{ position: "relative", top: "2px" }}
                             alt="Rotating Image"
                             initial={{ rotate: 0 }}
                             animate={{ rotate: 180 }}
                             transition={{ duration: 0.2, ease: "linear" }} /> : <></>}<img style={dropdown ? { display: "none" } : {}} className='DropDown' src={DropDown} alt='dropdown'></img></div>
-                             <div className="OptionBar" style={prodActive !==0 && optionActive === 0? {} : { display: "none" }}></div>
+                        {/* <div className="OptionBar" style={prodActive !==0 && optionActive === 0? {} : { display: "none" }}></div> */}
                         <div className="TheDropDown" style={dropdown ? {} : { display: "none" }}>
-                            <ul className='DropDownList' style={prodActive !==0 && optionActive === 0 ? {position:"absolute",top:"-14px"}:{}}>
-                                <li onClick={()=>handleProductActive(1)} onMouseLeave={() => handleDropOption(0)} onMouseOver={() => handleDropOption(1)} style={dropOption === 1 ? { color: "#5E1A89", backgroundColor: "#EAE5F1" } : {}} className='DropListItem'>Cloud HIS</li>
-                                <li onClick={()=>handleProductActive(2)} onMouseLeave={() => handleDropOption(0)} onMouseOver={() => handleDropOption(2)} style={dropOption === 2 ? { color: "#5E1A89", backgroundColor: "#EAE5F1" } : {}} className='DropListItem'>Advanced HIS</li>
-                                <li onClick={()=>handleProductActive(3)} onMouseLeave={() => handleDropOption(0)} onMouseOver={() => handleDropOption(3)} style={dropOption === 3 ? { color: "#5E1A89", backgroundColor: "#EAE5F1" } : {}} className='DropListItem'>LIS</li>
-                                <li onClick={()=>handleProductActive(4)} onMouseLeave={() => handleDropOption(0)} onMouseOver={() => handleDropOption(4)} style={dropOption === 4 ? { color: "#5E1A89", backgroundColor: "#EAE5F1" } : {}} className='DropListItem'>RIS</li>
-                                <li onClick={()=>handleProductActive(5)} onMouseLeave={() => handleDropOption(0)} onMouseOver={() => handleDropOption(5)} style={dropOption === 5 ? { color: "#5E1A89", backgroundColor: "#EAE5F1" } : {}} className='DropListItem'>Clinic</li>
-                                <li onClick={()=>handleProductActive(6)} onMouseLeave={() => handleDropOption(0)} onMouseOver={() => handleDropOption(6)} style={dropOption === 6 ? { color: "#5E1A89", backgroundColor: "#EAE5F1" } : {}} className='DropListItem'>Pharmacy</li>
-                                <li onClick={()=>handleProductActive(7)} onMouseLeave={() => handleDropOption(0)} onMouseOver={() => handleDropOption(7)} style={dropOption === 7 ? { color: "#5E1A89", backgroundColor: "#EAE5F1" } : {}} className='DropListItem'>EMR</li>
+                            <ul className='DropDownList' style={prodActive !== 0 && optionActive === 0 ? { position: "absolute", top: "-14px" } : {}}>
+                                <li onClick={() => handleProductActive(1)} onMouseLeave={() => handleDropOption(0)} onMouseOver={() => handleDropOption(1)} style={dropOption === 1 ? { color: "#5E1A89", backgroundColor: "#EAE5F1" } : {}} className='DropListItem'>HIS Starter</li>
+                                <li onClick={() => handleProductActive(2)} onMouseLeave={() => handleDropOption(0)} onMouseOver={() => handleDropOption(2)} style={dropOption === 2 ? { color: "#5E1A89", backgroundColor: "#EAE5F1" } : {}} className='DropListItem'>HIS Advanced</li>
+                                <li onClick={() => handleProductActive(3)} onMouseLeave={() => handleDropOption(0)} onMouseOver={() => handleDropOption(3)} style={dropOption === 3 ? { color: "#5E1A89", backgroundColor: "#EAE5F1" } : {}} className='DropListItem'>LIS</li>
+                                <li onClick={() => handleProductActive(4)} onMouseLeave={() => handleDropOption(0)} onMouseOver={() => handleDropOption(4)} style={dropOption === 4 ? { color: "#5E1A89", backgroundColor: "#EAE5F1" } : {}} className='DropListItem'>RIS</li>
+                                <li onClick={() => handleProductActive(5)} onMouseLeave={() => handleDropOption(0)} onMouseOver={() => handleDropOption(5)} style={dropOption === 5 ? { color: "#5E1A89", backgroundColor: "#EAE5F1" } : {}} className='DropListItem'>Clinic</li>
+                                <li onClick={() => handleProductActive(6)} onMouseLeave={() => handleDropOption(0)} onMouseOver={() => handleDropOption(6)} style={dropOption === 6 ? { color: "#5E1A89", backgroundColor: "#EAE5F1" } : {}} className='DropListItem'>PIS</li>
+                                <li onClick={() => handleProductActive(7)} onMouseLeave={() => handleDropOption(0)} onMouseOver={() => handleDropOption(7)} style={dropOption === 7 ? { color: "#5E1A89", backgroundColor: "#EAE5F1" } : {}} className='DropListItem'>EMR</li>
                             </ul>
                         </div>
                     </div>
@@ -113,10 +113,27 @@ export default function Navbar() {
                 <div style={optionActive === 4 ? {} : { display: "none" }}>
                     <Pricing />
                 </div>
-                <div style={prodActive === 1 && optionActive === 0? {} : { display: "none" }}>
-                    <Product1HIS />
+                <div style={prodActive === 1 && optionActive === 0 ? {} : { display: "none" }}>
+                    <Product prodID={1} />
                 </div>
-
+                <div style={prodActive === 2 && optionActive === 0 ? {} : { display: "none" }}>
+                    <Product prodID={2} />
+                </div>
+                <div style={prodActive === 3 && optionActive === 0 ? {} : { display: "none" }}>
+                    <Product prodID={3} />
+                </div>
+                <div style={prodActive === 4 && optionActive === 0 ? {} : { display: "none" }}>
+                    <Product prodID={4} />
+                </div>
+                <div style={prodActive === 5 && optionActive === 0 ? {} : { display: "none" }}>
+                    <Product prodID={5} />
+                </div>
+                <div style={prodActive === 6 && optionActive === 0 ? {} : { display: "none" }}>
+                    <Product prodID={6} />
+                </div>
+                <div style={prodActive === 7 && optionActive === 0 ? {} : { display: "none" }}>
+                    <Product prodID={7} />
+                </div>
             </div>
         </>
     );
