@@ -1,29 +1,307 @@
 [
     {
         "id": 1,
-        "ProdImg": "../Product1.png",
-        "ProdName": "Miracle On Cloud HIS",
-        "ProdDesc": "A Comprehensive healthcare solution",
+        "ProdImg": "../Product1_2.png",
+        "ProdName": "CLOUD HIS",
+        "ProdCat":" - Starter",
+        "ProdDesc": "For less than 50 beds",
         "Features": [
-            {
-                "FeatureName": "Paperless Transformation",
-                "FeatureDesc": "Streamline operations and reduce administrative tasks."
+            {   
+                "FeatureID":1,
+                "FeatureName": "Automates clinical and administrative functions",
+                "FeatureDesc": ""
             },
-            {
-                "FeatureName": "Financial Integration",
-                "FeatureDesc": "Seamlessly connect with financial ERPs like Navision, SAP, Tally, and Oracle."
+            {   
+                "FeatureID":2,
+                "FeatureName": "Improves operational effectiveness",
+                "FeatureDesc": ""
             },
-            {
-                "FeatureName": "Enhanced Mobility",
-                "FeatureDesc": "Improve patient care with Miracle Mobility Solutions."
+            {   
+                "FeatureID":3,
+                "FeatureName": "Reduces costs and medical errors.",
+                "FeatureDesc": ""
             },
-            {
-                "FeatureName": "Security",
-                "FeatureDesc": "Ensure data and financial security."
+            {   
+                "FeatureID":4,
+                "FeatureName": "Enhances quality of care",
+                "FeatureDesc": ""
             },
-            {
-                "FeatureName": "Inventory Management",
-                "FeatureDesc": "Efficiently manage stocks and prevent pilferage."
+            {   
+                "FeatureID":5,
+                "FeatureName": "Suits hospitals of all sizes, medical colleges, nursing homes",
+                "FeatureDesc": ""
+            },
+            {   
+                "FeatureID":6,
+                "FeatureName": "Modular architecture for various departments and specialties",
+                "FeatureDesc": ""
+            },
+            {   
+                "FeatureID":7,
+                "FeatureName": "Departments",
+                "FeatureDesc": "OPD, IPD, Emergency Care, Nursing Care, Pharmacy, Laboratory, Radiology, Inventory Management, Operation Theater, and more."
+            }
+        ],
+        "ProdExtro": "",
+        "ProdBtn1": "Download Brochure",
+        "ProdBtn2": "Plans & Pricing"
+    },
+    {
+        "id": 2,
+        "ProdImg": "../Product1_2.png",
+        "ProdName": "CLOUD HIS",
+        "ProdCat":" - Advanced",
+        "ProdDesc": "For 50-100 Beds",
+        "Features": [
+            {   
+                "FeatureID":1,
+                "FeatureName": "Automates clinical and administrative functions",
+                "FeatureDesc": ""
+            },
+            {   
+                "FeatureID":2,
+                "FeatureName": "Improves operational effectiveness",
+                "FeatureDesc": ""
+            },
+            {   
+                "FeatureID":3,
+                "FeatureName": "Reduces costs and medical errors",
+                "FeatureDesc": ""
+            },
+            {   
+                "FeatureID":4,
+                "FeatureName": "Enhances quality of care",
+                "FeatureDesc": ""
+            },
+            {   
+                "FeatureID":5,
+                "FeatureName": "Suits hospitals of all sizes, medical colleges, nursing homes",
+                "FeatureDesc": ""
+            },
+            {   
+                "FeatureID":6,
+                "FeatureName": "Modular architecture for various departments and specialties",
+                "FeatureDesc": ""
+            },
+            {   
+                "FeatureID":7,
+                "FeatureName": "Departments",
+                "FeatureDesc": "OPD, IPD, Emergency Care, Nursing Care, Pharmacy, Laboratory, Radiology, Inventory Management, Operation Theater, and more."
+            }
+        ],
+        "ProdExtro": "",
+        "ProdBtn1": "Download Brochure",
+        "ProdBtn2": "Plans & Pricing"
+    },
+    {
+        "id": 3,
+        "ProdImg": "../Product3.png",
+        "ProdName": "Cloud LIS",
+        "ProdCat":"",
+        "ProdDesc": "Designed for single/multi-doctor clinics",
+        "Features": [
+            {   
+                "FeatureID":1,
+                "FeatureName": "Expertise",
+                "FeatureDesc": "Gained through close work with healthcare organizations"
+            },
+            {   
+                "FeatureID":2,
+                "FeatureName": "Streamlined Workflow",
+                "FeatureDesc": "Tools to streamline complex diagnostic workflows"
+            },
+            {   
+                "FeatureID":3,
+                "FeatureName": "An intelligent imaging platform",
+                "FeatureDesc": ""
+            },
+            {   
+                "FeatureID":4,
+                "FeatureName": "Utilizes Data",
+                "FeatureDesc": "Leverages information from LIS systems"
+            },
+            {   
+                "FeatureID":5,
+                "FeatureName": "Benefits",
+                "FeatureDesc": "Increases staff productivity and improves operational efficiency"
+            },
+            {   
+                "FeatureID":6,
+                "FeatureName": "Focus on Patient Care",
+                "FeatureDesc": "Allows more time for patient care"
+            },
+            {   
+                "FeatureID":7,
+                "FeatureName": "Efficient Tracking",
+                "FeatureDesc": "Manages patient and image tracking seamlessly"
+            }
+        ],
+        "ProdExtro": "",
+        "ProdBtn1": "Download Brochure",
+        "ProdBtn2": "Plans & Pricing"
+    },
+    {
+        "id": 4,
+        "ProdImg": "../Product3.png",
+        "ProdName": "Cloud RIS",
+        "ProdCat":"",
+        "ProdDesc": "Designed for single/multi-doctor clinics",
+        "Features": [
+            {   
+                "FeatureID":1,
+                "FeatureName": "Expertise",
+                "FeatureDesc": "Gained through close work with healthcare organizations"
+            },
+            {   
+                "FeatureID":2,
+                "FeatureName": "Streamlined Workflow",
+                "FeatureDesc": "Tools to streamline complex diagnostic workflows"
+            },
+            {   
+                "FeatureID":3,
+                "FeatureName": "An intelligent imaging platform",
+                "FeatureDesc": ""
+            },
+            {   
+                "FeatureID":4,
+                "FeatureName": "Utilizes Data",
+                "FeatureDesc": "Leverages information from LIS systems"
+            },
+            {   
+                "FeatureID":5,
+                "FeatureName": "Benefits",
+                "FeatureDesc": "Increases staff productivity and improves operational efficiency"
+            },
+            {   
+                "FeatureID":6,
+                "FeatureName": "Focus on Patient Care",
+                "FeatureDesc": "Allows more time for patient care"
+            },
+            {   
+                "FeatureID":7,
+                "FeatureName": "Efficient Tracking",
+                "FeatureDesc": "Manages patient and image tracking seamlessly"
+            }
+        ],
+        "ProdExtro": "",
+        "ProdBtn1": "Download Brochure",
+        "ProdBtn2": "Plans & Pricing"
+    },
+    {
+        "id": 5,
+        "ProdImg": "../Product5.png",
+        "ProdName": "Cloud Clinic",
+        "ProdCat":"",
+        "ProdDesc": "Designed for single/multi-doctor clinics",
+        "Features": [
+            {   
+                "FeatureID":1,
+                "FeatureName": "World-class EMR",
+                "FeatureDesc": "Transforms clinics into paperless setups."
+            },
+            {   
+                "FeatureID":2,
+                "FeatureName": "Easy Prescriptions",
+                "FeatureDesc": "Doctors can add prescriptions and request procedures."
+            },
+            {   
+                "FeatureID":3,
+                "FeatureName": "Multi-Specialty Support",
+                "FeatureDesc": "Suitable for various clinic types."
+            },
+            {   
+                "FeatureID":4,
+                "FeatureName": "Tele-consultation",
+                "FeatureDesc": "Allows remote patient consultations."
+            },
+            {   
+                "FeatureID":5,
+                "FeatureName": "Integrated Payments",
+                "FeatureDesc": "Hassle-free payment processing."
+            },
+            {   
+                "FeatureID":6,
+                "FeatureName": "Performance Insights",
+                "FeatureDesc": "Tracks clinic performance."
+            },
+            {   
+                "FeatureID":7,
+                "FeatureName": "Remote Prescriptions",
+                "FeatureDesc": "Doctors can prescribe remotely."
+            }
+        ],
+        "ProdExtro": "",
+        "ProdBtn1": "Download Brochure",
+        "ProdBtn2": "Plans & Pricing"
+    },
+    {
+        "id": 6,
+        "ProdImg": "../Product5.png",
+        "ProdName": "Cloud PIS",
+        "ProdCat":" - Pharmacy",
+        "ProdDesc": "Designed for single/multi-doctor clinics",
+        "Features": [
+            {   
+                "FeatureID":1,
+                "FeatureName": "Integration",
+                "FeatureDesc": "Miracle PIS integrates pharmacy with CPOE & medication charting"
+            },
+            {   
+                "FeatureID":2,
+                "FeatureName": "Versatile Solution",
+                "FeatureDesc": "Designed to automate pharmacist and staff workflows for inpatient and ambulatory pharmacies"
+            },
+            {   
+                "FeatureID":3,
+                "FeatureName": "Rapid Medication Dispensing",
+                "FeatureDesc": "Electronic orders from physicians and staff nurses are received instantly"
+            },
+            {   
+                "FeatureID":4,
+                "FeatureName": "Improved Workflow",
+                "FeatureDesc": "Enhances and automates regular pharmacy processes"
+            }
+        ],
+        "ProdExtro": "",
+        "ProdBtn1": "Download Brochure",
+        "ProdBtn2": "Plans & Pricing"
+    },
+    {
+        "id": 7,
+        "ProdImg": "../Product5.png",
+        "ProdName": "Cloud EMR",
+        "ProdCat":"",
+        "ProdDesc": "",
+        "Features": [
+            {   
+                "FeatureID":1,
+                "FeatureName": "Comprehensive Features",
+                "FeatureDesc": "It combines clinical records, labs, prescription writing, and procedures"
+            },
+            {   
+                "FeatureID":2,
+                "FeatureName": "Powerful Tool",
+                "FeatureDesc": "Supports drug allergy checks, interaction checks, CPT & DRG coding, and ICD 10"
+            },
+            {   
+                "FeatureID":3,
+                "FeatureName": "Single Page EMR",
+                "FeatureDesc": "Operates on a single screen for efficient patient data management"
+            },
+            {   
+                "FeatureID":4,
+                "FeatureName": "Patient Details",
+                "FeatureDesc": "Records chief complaints, allergies, vitals, medical & family history, examinations, diagnoses, and more in one place"
+            },
+            {   
+                "FeatureID":5,
+                "FeatureName": "Clinical Summary",
+                "FeatureDesc": "Provides a complete patient summary on a single screen"
+            },
+            {   
+                "FeatureID":6,
+                "FeatureName": "Efficiency Features",
+                "FeatureDesc": "Includes shortcuts like favorites, templates, and investigation profiles to reduce physician's time and clicks, improving turnaround time (TAT)"
             }
         ],
         "ProdExtro": "",
