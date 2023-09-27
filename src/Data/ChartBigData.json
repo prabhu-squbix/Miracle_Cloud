@@ -1,0 +1,882 @@
+{
+    "_id": {
+      "$oid": "64f850d5256fbabe9893e0fb"
+    },
+    "tenant_id": "cf913442-417b-4ae4-9921-71814ada603f",
+    "tenant_name": "Akhil Systems",
+    "data": [
+      {
+        "id": "89367136-3a43-49b2-a095-c822cda23444",
+        "isSystemLookup": true,
+        "isActive": true,
+        "properties": [
+          {
+            "version": 1,
+            "lookup_type": "lookup",
+            "lookup_name": "Form Category",
+            "form_name": "",
+            "form_id": "",
+            "status": "published",
+            "lookup_values": [
+              {
+                "id": "a054ecd8-c078-4ec6-9a7e-746585489fff",
+                "value": "Personal Information",
+                "code": ""
+              },
+              {
+                "id": "c899f593-befa-45e4-b903-8463c7e67219",
+                "value": "Undefined",
+                "code": ""
+              },
+              {
+                "id": "efa4ee17-2cdb-45ce-9c34-49f347914fb0",
+                "value": "Bank Details",
+                "code": ""
+              },
+              {
+                "id": "9921b9f1-81b6-406e-9e34-d70bcbfbf39c",
+                "value": "Patient Identity Details",
+                "code": ""
+              },
+              {
+                "id": "69eb2b17-05db-46bd-908e-cec322e7397a",
+                "value": "Emergency Contact",
+                "code": ""
+              },
+              {
+                "id": "5b4276cf-3233-4b61-8ea2-df3cb5168ce9",
+                "value": "Payer Information",
+                "code": ""
+              },
+              {
+                "id": "4a4582a4-a03c-4f52-82a2-2051607de8bb",
+                "value": "Referral Info",
+                "code": ""
+              },
+              {
+                "id": "726070d9-6b50-40a0-a3d1-cb43ff3a40ad",
+                "value": "Other",
+                "code": ""
+              }
+            ],
+            "published_by": "Sanket",
+            "published_on": 1693995737401
+          }
+        ]
+      },
+      {
+        "id": "d1bf6931-fecc-430f-a15c-ffd5fac15ef8",
+        "isSystemLookup": true,
+        "isActive": true,
+        "properties": [
+          {
+            "version": 1,
+            "lookup_type": "lookup",
+            "lookup_name": "Country",
+            "form_name": "",
+            "form_id": "",
+            "status": "published",
+            "lookup_values": [
+              {
+                "id": "4b102a99-5e63-4a71-a96f-3ba0656d6fa8",
+                "value": "India",
+                "code": ""
+              },
+              {
+                "id": "070412cd-3227-4e7c-aed0-ca700638d9b6",
+                "value": "Australia",
+                "code": ""
+              },
+              {
+                "id": "dcc31012-f8dc-4a51-a9be-cfeeb036d0c5",
+                "value": "Singapore",
+                "code": ""
+              }
+            ],
+            "published_by": "Sanket",
+            "published_on": 1694002446870
+          }
+        ]
+      },
+      {
+        "properties": [
+          {
+            "version": 1,
+            "lookup_type": "lookup-link",
+            "lookup_name": "asdfgh",
+            "form_name": "",
+            "form_id": "",
+            "parent_lookup_name": "Country",
+            "parent_list_value": "India",
+            "parent_lookup_type": "lookup",
+            "status": "published",
+            "lookup_values": [
+              {
+                "id": "2706715a-7f03-4960-af50-941cdb321154",
+                "value": "asdfghjk",
+                "code": ""
+              }
+            ],
+            "published_by": "Sanket",
+            "published_on": 1694003146903
+          },
+          {
+            "lookup_values": [
+              {
+                "id": "8cb1be70-66a9-46b7-baba-5baedfe115db",
+                "value": "Odisha",
+                "code": ""
+              },
+              {
+                "id": "cf2b4943-a83e-4ad8-8ac6-76db361e31c2",
+                "value": "Maharashtra",
+                "code": ""
+              }
+            ],
+            "lookup_name": "States(India)",
+            "lookup_type": "lookup-link",
+            "version": 2,
+            "status": "published",
+            "parent_lookup_name": "Country",
+            "parent_list_value": "India",
+            "parent_lookup_type": "lookup",
+            "published_by": "Sanket",
+            "published_on": 1694272917833
+          }
+        ],
+        "id": "c262449d-ca61-4533-80d9-087adde5a722"
+      },
+      {
+        "properties": [
+          {
+            "version": 1,
+            "lookup_type": "lookup",
+            "lookup_name": "Modules",
+            "form_name": "",
+            "form_id": "",
+            "status": "published",
+            "lookup_values": [
+              {
+                "id": "e026afbf-4bc0-44d4-9eee-a148890d58d5",
+                "value": "OPD",
+                "code": ""
+              },
+              {
+                "id": "820036ca-d341-4bea-b0e1-6014135eab9b",
+                "value": "EMR",
+                "code": ""
+              }
+            ],
+            "published_by": "Sanket",
+            "published_on": 1694061354621
+          },
+          {
+            "lookup_values": [
+              {
+                "id": "e026afbf-4bc0-44d4-9eee-a148890d58d5",
+                "value": "OPD",
+                "code": ""
+              },
+              {
+                "id": "820036ca-d341-4bea-b0e1-6014135eab9b",
+                "value": "EMR",
+                "code": ""
+              },
+              {
+                "id": "b1d71953-8dc9-4fea-9063-3869313a6b48",
+                "value": "Configuration",
+                "code": "CONF"
+              }
+            ],
+            "lookup_name": "Modules",
+            "lookup_type": "lookup",
+            "version": 2,
+            "status": "published",
+            "published_by": "Sanket",
+            "published_on": 1694174047863
+          },
+          {
+            "created_by": "admin",
+            "created_on": 1695730003992,
+            "lookup_values": [
+              {
+                "id": "e026afbf-4bc0-44d4-9eee-a148890d58d5",
+                "value": "OPD",
+                "code": ""
+              },
+              {
+                "id": "820036ca-d341-4bea-b0e1-6014135eab9b",
+                "value": "EMR",
+                "code": ""
+              },
+              {
+                "id": "b1d71953-8dc9-4fea-9063-3869313a6b48",
+                "value": "Configuration",
+                "code": "CONF"
+              },
+              {
+                "id": "121cc1c9-ffc6-42db-903b-ab3a1819334d",
+                "value": "security",
+                "code": ""
+              }
+            ],
+            "lookup_name": "Modules",
+            "lookup_type": "lookup",
+            "version": 3,
+            "status": "published",
+            "published_by": "admin",
+            "published_on": 1695730004399
+          }
+        ],
+        "id": "2692f74f-fbd9-444f-8fdb-50d1ce8ddaed",
+        "isSystemLookup": true,
+        "isActive": true
+      },
+      {
+        "properties": [
+          {
+            "version": 1,
+            "lookup_type": "lookup",
+            "lookup_name": "Operation Properties",
+            "form_name": "",
+            "form_id": "",
+            "status": "published",
+            "lookup_values": [
+              {
+                "id": "85a2af25-b871-4a7b-a755-db51222724b2",
+                "value": "Add",
+                "code": ""
+              },
+              {
+                "id": "e7375dce-f4d9-4a0c-8458-202bfe5eff59",
+                "value": "Delete",
+                "code": ""
+              },
+              {
+                "id": "752614b9-f9e5-489a-8c74-591cd62a5560",
+                "value": "Modify",
+                "code": ""
+              },
+              {
+                "id": "751bdfa2-29fb-4622-b8a0-398c83647f98",
+                "value": "Write",
+                "code": ""
+              }
+            ],
+            "published_by": "Sanket",
+            "published_on": 1694103130005
+          },
+          {
+            "lookup_values": [
+              {
+                "id": "85a2af25-b871-4a7b-a755-db51222724b2",
+                "value": "Add",
+                "code": ""
+              },
+              {
+                "id": "e7375dce-f4d9-4a0c-8458-202bfe5eff59",
+                "value": "Delete",
+                "code": ""
+              },
+              {
+                "id": "752614b9-f9e5-489a-8c74-591cd62a5560",
+                "value": "Modify",
+                "code": ""
+              },
+              {
+                "id": "751bdfa2-29fb-4622-b8a0-398c83647f98",
+                "value": "Write",
+                "code": ""
+              }
+            ],
+            "lookup_name": "Operation Properties",
+            "lookup_type": "lookup",
+            "version": 2,
+            "status": "published",
+            "published_by": "admin",
+            "published_on": 1694518417672
+          },
+          {
+            "lookup_values": [
+              {
+                "id": "85a2af25-b871-4a7b-a755-db51222724b2",
+                "value": "Add",
+                "code": ""
+              },
+              {
+                "id": "e7375dce-f4d9-4a0c-8458-202bfe5eff59",
+                "value": "Delete",
+                "code": ""
+              },
+              {
+                "id": "752614b9-f9e5-489a-8c74-591cd62a5560",
+                "value": "Modify",
+                "code": ""
+              },
+              {
+                "id": "751bdfa2-29fb-4622-b8a0-398c83647f98",
+                "value": "Write",
+                "code": ""
+              }
+            ],
+            "lookup_name": "Operation Properties",
+            "lookup_type": "lookup",
+            "version": 3,
+            "status": "published",
+            "published_by": "admin",
+            "published_on": 1694518453000
+          },
+          {
+            "lookup_values": [
+              {
+                "id": "85a2af25-b871-4a7b-a755-db51222724b2",
+                "value": "Add",
+                "code": ""
+              },
+              {
+                "id": "e7375dce-f4d9-4a0c-8458-202bfe5eff59",
+                "value": "Delete",
+                "code": ""
+              },
+              {
+                "id": "752614b9-f9e5-489a-8c74-591cd62a5560",
+                "value": "Modify",
+                "code": ""
+              },
+              {
+                "id": "751bdfa2-29fb-4622-b8a0-398c83647f98",
+                "value": "Write",
+                "code": ""
+              },
+              {
+                "id": "68e981d4-66c9-4458-957c-e7247ec1ad74",
+                "value": "xyz",
+                "code": ""
+              }
+            ],
+            "lookup_name": "Operation Properties",
+            "lookup_type": "lookup",
+            "version": 4,
+            "status": "published",
+            "published_by": "admin",
+            "published_on": 1694608695023
+          },
+          {
+            "lookup_values": [
+              {
+                "id": "85a2af25-b871-4a7b-a755-db51222724b2",
+                "value": "Add",
+                "code": ""
+              },
+              {
+                "id": "e7375dce-f4d9-4a0c-8458-202bfe5eff59",
+                "value": "Delete",
+                "code": ""
+              },
+              {
+                "id": "752614b9-f9e5-489a-8c74-591cd62a5560",
+                "value": "Modify",
+                "code": ""
+              },
+              {
+                "id": "751bdfa2-29fb-4622-b8a0-398c83647f98",
+                "value": "Write",
+                "code": ""
+              }
+            ],
+            "lookup_name": "Operation Properties",
+            "lookup_type": "lookup",
+            "version": 5,
+            "status": "published",
+            "published_by": "admin",
+            "published_on": 1694608832570
+          },
+          {
+            "lookup_values": [
+              {
+                "id": "85a2af25-b871-4a7b-a755-db51222724b2",
+                "value": "Add",
+                "code": ""
+              },
+              {
+                "id": "e7375dce-f4d9-4a0c-8458-202bfe5eff59",
+                "value": "Delete",
+                "code": ""
+              },
+              {
+                "id": "752614b9-f9e5-489a-8c74-591cd62a5560",
+                "value": "Modify",
+                "code": ""
+              },
+              {
+                "id": "751bdfa2-29fb-4622-b8a0-398c83647f98",
+                "value": "Write",
+                "code": ""
+              },
+              {
+                "id": "bf54ebd3-bdc6-4197-8b29-e506b94e5b1c",
+                "value": "DELETE2",
+                "code": ""
+              },
+              {
+                "id": "e45e19d7-4975-4f5f-9d2b-0d481f1bbd35",
+                "value": "MODIFY5",
+                "code": ""
+              },
+              {
+                "id": "4fa16b7b-159b-4117-b965-c5779ff26aac",
+                "value": "SWORUP69",
+                "code": ""
+              }
+            ],
+            "lookup_name": "Operation Properties",
+            "lookup_type": "lookup",
+            "version": 6,
+            "status": "published",
+            "published_by": "admin",
+            "published_on": 1694691395147
+          },
+          {
+            "lookup_values": [
+              {
+                "id": "85a2af25-b871-4a7b-a755-db51222724b2",
+                "value": "Add",
+                "code": ""
+              },
+              {
+                "id": "e7375dce-f4d9-4a0c-8458-202bfe5eff59",
+                "value": "Delete",
+                "code": ""
+              },
+              {
+                "id": "752614b9-f9e5-489a-8c74-591cd62a5560",
+                "value": "Modify",
+                "code": ""
+              },
+              {
+                "id": "751bdfa2-29fb-4622-b8a0-398c83647f98",
+                "value": "Write",
+                "code": ""
+              },
+              {
+                "id": "bf54ebd3-bdc6-4197-8b29-e506b94e5b1c",
+                "value": "DELETE2",
+                "code": ""
+              },
+              {
+                "id": "e45e19d7-4975-4f5f-9d2b-0d481f1bbd35",
+                "value": "MODIFY5",
+                "code": ""
+              },
+              {
+                "id": "4fa16b7b-159b-4117-b965-c5779ff26aac",
+                "value": "SWORUP69",
+                "code": ""
+              },
+              {
+                "id": "453a225c-17c8-4395-a6a1-2331ed616b39",
+                "value": "Draft 2",
+                "code": ""
+              },
+              {
+                "id": "357ee82a-bd4c-46c2-808c-7f277c7b431d",
+                "value": "Draft4",
+                "code": ""
+              },
+              {
+                "id": "73eac476-5ee0-4daf-a095-5099652894c7",
+                "value": "Draft5",
+                "code": ""
+              }
+            ],
+            "lookup_name": "Operation Properties",
+            "lookup_type": "lookup",
+            "version": 7,
+            "status": "published",
+            "published_by": "admin",
+            "published_on": 1694692676941
+          },
+          {
+            "lookup_values": [
+              {
+                "id": "752614b9-f9e5-489a-8c74-591cd62a5560",
+                "value": "Modify",
+                "code": ""
+              },
+              {
+                "id": "85a2af25-b871-4a7b-a755-db51222724b2",
+                "value": "Add",
+                "code": ""
+              },
+              {
+                "id": "e7375dce-f4d9-4a0c-8458-202bfe5eff59",
+                "value": "Delete",
+                "code": ""
+              },
+              {
+                "id": "751bdfa2-29fb-4622-b8a0-398c83647f98",
+                "value": "Write",
+                "code": ""
+              }
+            ],
+            "lookup_name": "Operation Properties",
+            "lookup_type": "lookup",
+            "version": 8,
+            "status": "published",
+            "published_by": "admin",
+            "published_on": 1694692839383
+          },
+          {
+            "lookup_values": [
+              {
+                "id": "752614b9-f9e5-489a-8c74-591cd62a5560",
+                "value": "Modify",
+                "code": ""
+              },
+              {
+                "id": "85a2af25-b871-4a7b-a755-db51222724b2",
+                "value": "Add",
+                "code": ""
+              },
+              {
+                "id": "e7375dce-f4d9-4a0c-8458-202bfe5eff59",
+                "value": "Delete",
+                "code": ""
+              },
+              {
+                "id": "751bdfa2-29fb-4622-b8a0-398c83647f98",
+                "value": "Write",
+                "code": ""
+              }
+            ],
+            "lookup_name": "Operation Properties",
+            "lookup_type": "lookup",
+            "version": 9,
+            "status": "published",
+            "published_by": "admin",
+            "published_on": 1694693663693
+          },
+          {
+            "lookup_values": [
+              {
+                "id": "752614b9-f9e5-489a-8c74-591cd62a5560",
+                "value": "Modify",
+                "code": ""
+              },
+              {
+                "id": "85a2af25-b871-4a7b-a755-db51222724b2",
+                "value": "Add",
+                "code": ""
+              },
+              {
+                "id": "e7375dce-f4d9-4a0c-8458-202bfe5eff59",
+                "value": "Delete",
+                "code": ""
+              },
+              {
+                "id": "751bdfa2-29fb-4622-b8a0-398c83647f98",
+                "value": "Write",
+                "code": ""
+              }
+            ],
+            "lookup_name": "Operation Properties",
+            "lookup_type": "lookup",
+            "version": 10,
+            "status": "published",
+            "published_by": "admin",
+            "published_on": 1694752801332
+          },
+          {
+            "lookup_values": [
+              {
+                "id": "752614b9-f9e5-489a-8c74-591cd62a5560",
+                "value": "Modify",
+                "code": ""
+              },
+              {
+                "id": "85a2af25-b871-4a7b-a755-db51222724b2",
+                "value": "Add",
+                "code": ""
+              },
+              {
+                "id": "e7375dce-f4d9-4a0c-8458-202bfe5eff59",
+                "value": "Delete",
+                "code": ""
+              },
+              {
+                "id": "751bdfa2-29fb-4622-b8a0-398c83647f98",
+                "value": "Write",
+                "code": ""
+              }
+            ],
+            "lookup_name": "Operation Properties",
+            "lookup_type": "lookup",
+            "version": 11,
+            "status": "published",
+            "published_by": "admin",
+            "published_on": 1694760577145
+          },
+          {
+            "lookup_values": [
+              {
+                "id": "752614b9-f9e5-489a-8c74-591cd62a5560",
+                "value": "Modify",
+                "code": ""
+              },
+              {
+                "id": "85a2af25-b871-4a7b-a755-db51222724b2",
+                "value": "Add",
+                "code": ""
+              },
+              {
+                "id": "e7375dce-f4d9-4a0c-8458-202bfe5eff59",
+                "value": "Delete",
+                "code": ""
+              },
+              {
+                "id": "751bdfa2-29fb-4622-b8a0-398c83647f98",
+                "value": "Write",
+                "code": ""
+              },
+              {
+                "id": "523615d9-76d3-4719-b6c1-00ff0f5f45ef",
+                "value": "Discount",
+                "code": "Discount"
+              }
+            ],
+            "lookup_name": "Operation Properties",
+            "lookup_type": "lookup",
+            "version": 12,
+            "status": "published",
+            "published_by": "admin",
+            "published_on": 1694760607544
+          },
+          {
+            "lookup_values": [
+              {
+                "id": "752614b9-f9e5-489a-8c74-591cd62a5560",
+                "value": "Modify",
+                "code": ""
+              },
+              {
+                "id": "85a2af25-b871-4a7b-a755-db51222724b2",
+                "value": "Add",
+                "code": ""
+              },
+              {
+                "id": "e7375dce-f4d9-4a0c-8458-202bfe5eff59",
+                "value": "Delete",
+                "code": ""
+              },
+              {
+                "id": "751bdfa2-29fb-4622-b8a0-398c83647f98",
+                "value": "Write",
+                "code": ""
+              }
+            ],
+            "lookup_name": "Operation Properties",
+            "lookup_type": "lookup",
+            "version": 13,
+            "status": "published",
+            "published_by": "admin",
+            "published_on": 1694769677357
+          }
+        ],
+        "id": "d45ab291-f4de-4a34-8ce9-7612652e9d69",
+        "isSystemLookup": true,
+        "isActive": true
+      },
+      {
+        "id": "84b6d09a-4f27-4537-8be4-d5c69c984c74",
+        "isSystemLookup": null,
+        "isActive": null,
+        "properties": [
+          {
+            "version": 1,
+            "lookup_type": "lookup-link",
+            "lookup_name": "Cities(Odisha)",
+            "form_name": "",
+            "form_id": "",
+            "parent_lookup_name": "States(India)",
+            "parent_list_value": "Odisha",
+            "parent_lookup_type": "lookup-link",
+            "status": "published",
+            "lookup_values": [
+              {
+                "id": "58c48c80-068d-4d62-9769-2380078680b3",
+                "value": "Bhubaneswar",
+                "code": ""
+              },
+              {
+                "id": "911bfee2-e16e-4cd6-9005-8d125fc2a745",
+                "value": "Cuttack",
+                "code": ""
+              }
+            ],
+            "published_by": "Sanket",
+            "published_on": 1694278710975
+          }
+        ]
+      },
+      {
+        "id": "fb8109de-631b-4bec-967c-c1428d44c9bb",
+        "isSystemLookup": true,
+        "isActive": true,
+        "properties": [
+          {
+            "version": 1,
+            "lookup_type": "lookup",
+            "lookup_name": "Identification Type",
+            "form_name": "",
+            "form_id": "",
+            "status": "published",
+            "lookup_values": [
+              {
+                "id": "2fe10403-0090-440f-8d53-e04093c29381",
+                "value": "Stores",
+                "code": ""
+              },
+              {
+                "id": "19e2e201-d748-46dc-89a5-9eb8c0db3809",
+                "value": "Sub Stores",
+                "code": ""
+              },
+              {
+                "id": "ee23c73a-e704-48ee-bd04-91c3964521ac",
+                "value": "Main Stores",
+                "code": ""
+              },
+              {
+                "id": "9ba9af26-04b4-4489-8d8f-6d813a650b08",
+                "value": "Ward",
+                "code": ""
+              },
+              {
+                "id": "c84ed4c6-d134-4861-9628-b70d9889bcea",
+                "value": "Private Rooms",
+                "code": ""
+              }
+            ],
+            "published_by": "admin",
+            "published_on": 1695190054839
+          }
+        ]
+      },
+      {
+        "id": "d2ae53d0-9317-4e72-924d-b1a692f072ea",
+        "isSystemLookup": false,
+        "isActive": true,
+        "properties": [
+          {
+            "version": 1,
+            "lookup_type": "lookup",
+            "lookup_name": "trail-test",
+            "form_name": "",
+            "form_id": "",
+            "created_by": "admin",
+            "status": "draft",
+            "lookup_values": [
+              {
+                "id": "d0fa4175-2d91-46df-a3fd-712cae14798e",
+                "value": "gwe",
+                "code": "tgrs"
+              }
+            ],
+            "created_on": 1695631710835
+          }
+        ]
+      },
+      {
+        "id": "fcb9ba33-76b7-458e-82d2-3d52066bb8a88",
+        "isSystemLookup": true,
+        "isActive": false,
+        "properties": [
+          {
+            "created_by": "deepak12",
+            "lookup_type": "lookup",
+            "lookup_name": "Form Category56",
+            "form_name": "custom",
+            "form_id": "49a6782d-9bf5-49ab-8a1a-f3bf3afcb47e",
+            "version": 1,
+            "status": "draft",
+            "lookup_values": null,
+            "created_on": 1695296864920
+          }
+        ]
+      },
+      {
+        "properties": [
+          {
+            "version": 1,
+            "lookup_type": "lookup-link",
+            "lookup_name": "States(Australia)",
+            "form_name": "Custom_Country1",
+            "form_id": "f9f6d0cb-bc11-4208-9b0e-afb93f6774e0",
+            "parent_lookup_name": "Country",
+            "parent_list_value": "Australia",
+            "parent_lookup_type": "lookup",
+            "status": "published",
+            "lookup_values": [
+              {
+                "id": "cc35eb89-fcf0-44f9-bf86-6495c8c07d00",
+                "value": "Tasmania",
+                "code": "",
+                "iso_code": ""
+              }
+            ],
+            "published_by": "admin",
+            "published_on": 1695300821634
+          },
+          {
+            "created_by": "admin",
+            "created_on": 1695448582956,
+            "lookup_values": [
+              {
+                "id": "cc35eb89-fcf0-44f9-bf86-6495c8c07d00",
+                "value": "Tasmania",
+                "code": "",
+                "iso_code": ""
+              }
+            ],
+            "lookup_name": "States(Australia)",
+            "lookup_type": "lookup-link",
+            "version": 2,
+            "status": "draft",
+            "parent_lookup_name": "Country",
+            "parent_list_value": "Australia",
+            "parent_lookup_type": "lookup"
+          }
+        ],
+        "id": "8020a5cd-d715-419d-b504-0dd54054aa8b"
+      },
+      {
+        "id": "162ef313-8e08-4c0c-9355-7a03a5d83109",
+        "isSystemLookup": true,
+        "isActive": true,
+        "properties": [
+          {
+            "version": 1,
+            "lookup_type": "lookup",
+            "lookup_name": "Patient Type",
+            "form_name": "",
+            "form_id": "",
+            "status": "published",
+            "lookup_values": [
+              {
+                "id": "5b75a73b-58d3-4445-bc66-39a1027ac645",
+                "value": "International",
+                "code": "In"
+              },
+              {
+                "id": "159fe12d-1e96-4a8e-964f-a30bd558ec4a",
+                "value": "Domestic",
+                "code": "dom"
+              }
+            ],
+            "published_by": "admin",
+            "published_on": 1695381271798
+          }
+        ]
+      }
+    ]
+  }

@@ -1,32 +1,137 @@
 [
-    {
-      "id": 1,
-      "year": 2016,
-      "userGain": 80000,
-      "userLost": 8231
-    },
-    {
-      "id": 2,
-      "year": 2017,
-      "userGain": 45677,
-      "userLost": 34525
-    },
-    {
-      "id": 3,
-      "year": 2018,
-      "userGain": 78888,
-      "userLost": 5553
-    },
-    {
-      "id": 4,
-      "year": 2019,
-      "userGain": 90000,
-      "userLost": 45554
-    },
-    {
-      "id": 5,
-      "year": 2020,
-      "userGain": 4300,
-      "userLost": 23451
-    }
-  ]
+  {
+    "id": 1,
+    "year": 2016,
+    "initialCount": 45987,
+    "userGain": 80000,
+    "userLost": 8231,
+    "totalCost": 32000,
+    "totalRevenue": 65000
+  },
+  {
+    "id": 2,
+    "year": 2017,
+    "initialCount": 46200,
+    "userGain": 45677,
+    "userLost": 34525,
+    "totalCost": 42000,
+    "totalRevenue": 53000
+  },
+  {
+    "id": 3,
+    "year": 2018,
+    "initialCount": 46800,
+    "userGain": 78888,
+    "userLost": 5553,
+    "totalCost": 28000,
+    "totalRevenue": 86000
+  },
+  {
+    "id": 4,
+    "year": 2019,
+    "initialCount": 47600,
+    "userGain": 90000,
+    "userLost": 45554,
+    "totalCost": 75000,
+    "totalRevenue": 115000
+  },
+  {
+    "id": 5,
+    "year": 2020,
+    "initialCount": 48500,
+    "userGain": 4300,
+    "userLost": 23451,
+    "totalCost": 26000,
+    "totalRevenue": 17000
+  },
+  {
+    "id": 6,
+    "year": 2021,
+    "initialCount": 48900,
+    "userGain": 23000,
+    "userLost": 8231,
+    "totalCost": 35000,
+    "totalRevenue": 11000
+  },
+  {
+    "id": 7,
+    "year": 2022,
+    "initialCount": 49400,
+    "userGain": 45277,
+    "userLost": 34225,
+    "totalCost": 28000,
+    "totalRevenue": 44000
+  },
+  {
+    "id": 8,
+    "year": 2023,
+    "initialCount": 50000,
+    "userGain": 78218,
+    "userLost": 1553,
+    "totalCost": 48000,
+    "totalRevenue": 102000
+  },
+  {
+    "id": 9,
+    "year": 2024,
+    "initialCount": 50900,
+    "userGain": 12000,
+    "userLost": 12554,
+    "totalCost": 55000,
+    "totalRevenue": 7000
+  },
+  {
+    "id": 10,
+    "year": 2025,
+    "initialCount": 52100,
+    "userGain": 14300,
+    "userLost": 3451,
+    "totalCost": 33000,
+    "totalRevenue": 25600
+  },
+  {
+    "id": 11,
+    "year": 2026,
+    "initialCount": 53500,
+    "userGain": 120000,
+    "userLost": 82131,
+    "totalCost": 75000,
+    "totalRevenue": 167000
+  },
+  {
+    "id": 12,
+    "year": 2027,
+    "initialCount": 55000,
+    "userGain": 45677,
+    "userLost": 34525,
+    "totalCost": 40000,
+    "totalRevenue": 55600
+  },
+  {
+    "id": 13,
+    "year": 2028,
+    "initialCount": 56700,
+    "userGain": 7888,
+    "userLost": 5553,
+    "totalCost": 20000,
+    "totalRevenue": 10800
+  },
+  {
+    "id": 14,
+    "year": 2029,
+    "initialCount": 58600,
+    "userGain": 90000,
+    "userLost": 5554,
+    "totalCost": 38000,
+    "totalRevenue": 52000
+  },
+  {
+    "id": 15,
+    "year": 2030,
+    "initialCount": 60600,
+    "userGain": 4300,
+    "userLost": 23451,
+    "totalCost": 31000,
+    "totalRevenue": 9700
+  }
+]

@@ -1,0 +1,54 @@
+.OverviewHeading {
+    text-align: center;
+    padding-bottom: 80px;
+    color: #959595;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.96px;
+}
+
+.ProductRow {
+    padding-left: 16.32vw;
+    padding-right: 16.31vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 101px;
+    flex-wrap: wrap;
+}
+
+.ProductCard {
+    border-radius: 10px;
+    width: 256px;
+    height: 292px;
+    background-color: #FFF;
+    filter: drop-shadow(0px 9.770597457885742px 39.54765701293945px rgba(0, 0, 0, 0.10));
+    text-align: center;
+}
+
+.ProductName {
+    color: #5E1A89;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    /* 111.111% */
+    letter-spacing: 0.36px;
+    padding-top: 26px;
+    padding-bottom: 4px;
+}
+
+.ProductDesc {
+    color: #959595;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.28px;
+    padding-bottom: 27px;
+}
