@@ -9,12 +9,13 @@
     flex-direction: column;
     text-align: left;
     width: 36.25vw;
-    color: #F9FBFC;
+    color: #5E1A89;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 1.08px;
-    background-color: #5E1A89;
+    background: url('../assets/DifferentBackGround.svg');
+    background-size: cover;
     padding: 77px 3.54vw 76px 3.47vw;
 }
 
@@ -33,6 +34,7 @@
 }
 
 .Description {
+    color: #303033;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.48px;

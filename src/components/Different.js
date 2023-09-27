@@ -38,10 +38,7 @@ export default function Different() {
                 <div onMouseOver={() => handleSetPlayBtnActive(true)}
                     onMouseLeave={() => handleSetPlayBtnActive(false)}
                     onClick={handleVideoPlay}>
-                    <img className='VideoPlay' style={videoActive ? {} : { display: "none" }} src={VideoDemo} alt='video'></img>
-                    {/* <video className='VideoPlay' style={videoActive ? {} : { display: "none" }} width="320" height="240"  
-                        source src="https://www.youtube.com/watch?v=igZ6PoZAszQ" type="video/mp4">
-                            </video> */}
+                    <img className='VideoPlay' style={videoActive ? {position:"relative",top:"2px"} : { display: "none" }} src={VideoDemo} alt='video'></img>
                             <button className='PlayBtn' style={videoActive ? { display: "none" } : {}}>
                                 <img src={PlayBtn} alt="PlayButton" style={playBtnActive ? { display: "none" } : {}}></img>
                                 <img src={PlayBtnActive} alt="PlayButton" style={playBtnActive ? {} : { display: "none" }}></img>

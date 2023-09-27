@@ -1,5 +1,5 @@
 import { Bar, Line, Pie ,Bubble, Doughnut ,PolarArea ,Radar ,Scatter} from "react-chartjs-2";
-import Chart from 'chart.js/auto';
+import Chart, { categoryAxis } from 'chart.js/auto';
 import UserData from "../Data/ChartData.json";
 import { useState } from "react";
 import '../styles/ChartFlows.css';
@@ -14,6 +14,13 @@ export default function ChartFlows() {
         labels: UserData.map((data) => data.year),
         datasets: [
             {
+                label: "Initial Users",
+                data: UserData.map((data) => data.initialCount),
+                backgroundColor: ["#ff9e00"],
+                borderColor: "#240046",
+                borderWidth: 1,
+            },
+            {
                 label: "Users Gained",
                 data: UserData.map((data) => data.userGain),
                 backgroundColor: ["#5E1A89"],
@@ -27,7 +34,38 @@ export default function ChartFlows() {
                 borderColor: "#d3d3d7",
                 borderWidth: 1,
             },
+            {
+                label: "Total Cost",
+                data: UserData.map((data) => data.totalCost),
+                backgroundColor: ["#8edf34"],
+                borderColor: "#8edf34",
+                borderWidth: 1,
+            },
+            {
+                label: "Total Revenue",
+                data: UserData.map((data) => data.totalRevenue),
+                backgroundColor: ["#d5465c"],
+                borderColor: "#d5465c",
+                borderWidth: 1,
+            },
         ],
+        options: {
+            scales: {
+                x: {
+                    beginAtZero: true,
+                    plugins: {
+                        categoryAxis: {
+                            labels: {
+                                rotation: 45,
+                            },
+                        },
+                    },
+                },
+                y: {
+                    beginAtZero: true,
+                },
+            },
+        },
     });
     const [coloredData, setColoredData] = useState({
         labels: UserData.map((data) => data.year),

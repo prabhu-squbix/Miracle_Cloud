@@ -24,18 +24,18 @@ export default function Hero() {
   useEffect(() => {
     setTimeout(() => {
       setShowDesc(true);
-    }, 100);
+    }, 500);
     setTimeout(() => {
       setShowLine1(true);
     }, 500);
 
     setTimeout(() => {
       setShowLine2(true);
-    }, 800);
+    }, 500);
 
     setTimeout(() => {
       setShowLine3(true);
-    }, 1000);
+    }, 500);
   }, []);
 
   const [popupActive, setPopupActive] = useState(false);
@@ -48,7 +48,7 @@ export default function Hero() {
 
   }
   return (
-    <div className="Hero" style={popupActive ? { height: "100vh", overflowY: "hidden" } : {}}>
+    <div className="Hero" style={popupActive ? { height: "100vh", overflow: "hidden" } : {}}>
       <div className="Banner" style={popupActive ? {
         background: "linear-gradient(248deg, rgba(94, 26, 136, 0.17) 1.52%, rgba(255, 255, 255, 0.00) 96.99%)",
         backdropFilter: "blur(25px)"
@@ -109,7 +109,7 @@ export default function Hero() {
                   </Popup>
 
                   <div className="btnSpacer"></div>
-                  <button className="btn2" onMouseOver={() => handleBtn2Active(1)} onMouseLeave={() => handleBtn2Active(0)} style={btn2Active === 1 ? { color: "#5E1A89", background: "none", borderColor: "#5E1A89" } : {}}>Download Brochure</button>
+                  <button className="btn2" onMouseOver={() => handleBtn2Active(1)} onMouseLeave={() => handleBtn2Active(0)} style={btn2Active === 1 ? { color: "#ce96e6", background: "none", borderColor: "#ce96e6" } : {}}>Download Brochure</button>
                 </div>
               </motion.div>
             )}

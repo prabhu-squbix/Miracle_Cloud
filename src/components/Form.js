@@ -14,8 +14,8 @@ export default function Form() {
                         </div>
                         <div className='EachField'>
                             <div className='TextField'>
-                                <select placeholder='Select' className='InputText' id="products" name="prodList" form="prodform">
-                                    <option value="Cloud HIS" style={{ color: "#BDBDBD" }}>Select Product</option>
+                                <select placeholder='Select' className='InputText OptionSelector' id="products" name="prodList" form="prodform">
+                                    <option value="" disabled selected hidden>Select Product</option>
                                     <option value="Cloud HIS">Cloud HIS</option>
                                     <option value="Advanced HIS">Advanced HIS</option>
                                     <option value="LIS">LIS</option>
@@ -30,16 +30,19 @@ export default function Form() {
                         </div>
                     </div>
                     <div className='ColTwo'>
-                        <div className='EachField' style={{ paddingBottom: "66px" }}>
-                            <div className='TextField'><input placeholder='example@gmail.com' className='InputText'></input></div>
+                        <div className='EachField'>
+                            <div className='TextField'><input placeholder='Email' className='InputText'></input></div>
                         </div>
-                        <div className='EachField' style={{ paddingBottom: "66px" }}>
-                            <div className='TextField'><input placeholder='example@gmail.com' className='InputText'></input></div>
+                        <div className='EachField'>
+                            <div className='TextField'><input placeholder='Mobile No.' className='InputText'></input></div>
                         </div>
-                        <div className='EachField' style={{ paddingBottom: "66px" }}>
-                            <div className='TextField'><input placeholder='example@gmail.com' className='InputText'></input></div>
+                        <div className='EachField'>
+                            <div className='TextField'><input placeholder='Location' className='InputText'></input></div>
                         </div>
                     </div>
+                </div>
+                <div className='MsgBox'>
+                    <textarea placeholder='Message' className='Msg'></textarea>
                 </div>
                 <div className='Submit'><button className='SubmitBtn'>Send Brochure to my mail</button></div>
             </div>

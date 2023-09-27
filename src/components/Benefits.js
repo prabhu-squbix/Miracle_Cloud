@@ -20,7 +20,7 @@ export default function Benefits() {
                             style={optionActive === benefit.id ? {} : { filter: "grayscale(100%)" }}>
                             <img className='BenefitImg' src={benefit.img} alt='benefit'></img>
                             <div className='BenefitDesc'
-                                style={optionActive === benefit.id ? { color:"#5E1A89", textDecoration:"underline" } : {}}>
+                                style={optionActive === benefit.id ? { color:"#5E1A89" } : {}}>
                                 {benefit.description}
                             </div>
                         </div>
