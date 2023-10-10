@@ -3,26 +3,29 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 150px;
+    padding-top: 80px;
     gap: 102px;
     fill: #fff;
     padding-bottom: 100px;
 }
-.ProductImg{
+
+.ProductImg {
     z-index: 500;
-    width: auto;
-    height: auto;
+    scale: 0.9;
     position: relative;
-    right: 100px;
-    bottom: 120px;
+    right: 300px;
+
 }
+
 .EachProduct {
     display: flex;
     flex-direction: row;
     flex-shrink: 0;
     background-color: #f7f3f9;
-    padding-right: 116.6px;
-    border-radius: 7PX;
+    padding-bottom: 50px;
+    border-radius: 7px;
+    position: relative;
+    left: 200px;
 }
 
 .Intro {
@@ -85,7 +88,7 @@
     font-weight: 700;
 }
 
-.ProdExtro {
+/* .ProdExtro {
     color: #303030;
     font-size: 18.972px;
     font-style: normal;
@@ -93,7 +96,7 @@
     line-height: normal;
     text-transform: capitalize;
     padding-bottom: 27px;
-}
+} */
 
 .ProdBtns {
     display: flex;
@@ -116,8 +119,9 @@
     color: #5e1a89;
 }
 
-.Btn2 {
-    background: #5e1a89;
+.btn2 {
+    background-color: #FFF;
+    color: #5e1a89;
     border-style: none;
     display: flex;
     width: 179px;
@@ -126,8 +130,55 @@
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    border-color: #5e1a89;
+    border-width: 1px;
+    border-style: solid;
     border-radius: 4px;
     gap: 21px;
     text-align: center;
-    color: #FFF;
+}
+
+
+@media screen and (max-width: 480px) {
+    .EachProduct {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        background-color: #f7f3f9;
+        margin-top: 200px;
+        padding-bottom: 0;
+        padding-left: 40px;
+        border-radius: 0;
+        position: relative;
+        left: 0;
+    }
+    .ProdBtns{
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    .ProductImg{
+        position: absolute;
+        left:-60px;
+        bottom: 450px;
+        scale:0.6;
+
+    }
+    .DesktopProduct{
+        display: none;
+    }
+    .MobileProduct{
+        width: 100vw;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1300px) {
+    .MobileProduct{
+        display: none;
+    }
+}
+
+@media (min-width: 1301px) {
+    .MobileProduct{
+        display: none;
+    }
 }

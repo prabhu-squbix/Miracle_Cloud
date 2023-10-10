@@ -9,12 +9,12 @@
     flex-direction: column;
     text-align: left;
     width: 36.25vw;
-    color: #5E1A89;
+    color: #fff;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 1.08px;
-    background: url('../assets/DifferentBackGround.svg');
+    background: url('../assets/DifferentBackGround.png');
     background-size: cover;
     padding: 77px 3.54vw 76px 3.47vw;
 }
@@ -34,7 +34,7 @@
 }
 
 .Description {
-    color: #303033;
+    color: #959595;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.48px;
@@ -60,7 +60,70 @@
     border: none;
     cursor: pointer;
 }
-.VideoPlay{
+
+.VideoPlay {
     width: 918px;
     height: 513px;
 }
+
+@media screen and (max-width: 480px) {
+    .Different {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .DifferentText {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 100vw;
+        font-weight: 400;
+        letter-spacing: 1.08px;
+        background: url('../assets/DifferentBackGround.png');
+        background-size: cover;
+        padding: 32px 0;
+        
+    }
+
+    .DifferentVideo {
+        background-image: url(../assets/HowDifferent.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 232.706px;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Description {
+        width: 333.89px;
+        font-size: 12.69px;
+        font-weight: 400;
+        letter-spacing: 0.381px;
+        text-align: left;
+        text-wrap: wrap;
+        padding-left: 35px;
+    }
+
+    .DifferentTopic {
+        font-size: 28.552px;
+        font-weight: 400;
+        letter-spacing: 0.857px;
+        padding-left: 35px;
+    }
+
+    .SubHeading {
+        font-size: 15.069px;
+        font-weight: 700;
+        letter-spacing: 0.452px;
+        padding-left: 35px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1300px) {}
+
+@media (min-width: 1301px) {}

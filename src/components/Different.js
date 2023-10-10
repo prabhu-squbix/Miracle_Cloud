@@ -20,7 +20,7 @@ export default function Different() {
     return (
         <div className="Different">
             <div className="DifferentText" style={{ width: `${TextWidth}px` }}>
-                <div className="DifferentTopic" style={{ fontSize: "36px" }}>How are we different</div>
+                <div className="DifferentTopic">How are we different</div>
                 <div>
                     <div className='SubHeading'>Technology Integration</div>
                     <div className='Description'>We have integrated various emerging technologies into our solutions</div>

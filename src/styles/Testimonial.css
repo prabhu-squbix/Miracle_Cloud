@@ -121,3 +121,47 @@
     line-height: 20px;
     /* 142.857% */
 }
+
+@media screen and (max-width: 480px) {
+    .Desktop {
+        display: none;
+    }
+
+    .TestHeading {
+        font-size: 24px;
+        font-size: 24px;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 0.72px;
+        padding-left: 0;
+        gap: 0;
+    }
+
+    .ViewAll {
+        display: none;
+    }
+
+    .TestCards {
+        padding: 0;
+        gap: 0;
+        margin-left: 0;
+    }
+    .PrevBtn{
+        scale: 0.7;
+        position: relative;
+        left: 18px;
+    }
+    .ScrollBtns{
+        scale: 0.7;
+        position: relative;
+        right: 20px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1300px) {}
+
+@media (min-width: 1301px) {
+    .Mobile {
+        display: none;
+    }
+}

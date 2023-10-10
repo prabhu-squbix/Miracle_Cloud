@@ -1,10 +1,11 @@
-.ScrollingC{
+.ScrollingC {
     display: flex;
     flex-direction: column;
     justify-content: center;
     z-index: 500;
     padding-bottom: 100px;
 }
+
 .CounterHead {
     color: #959595;
     font-size: 32px;
@@ -15,6 +16,7 @@
     text-align: center;
     padding-bottom: 68px;
 }
+
 .CounterBox {
     display: flex;
     flex-direction: column;
@@ -27,7 +29,8 @@
     display: flex;
     flex-direction: column;
 }
-.row1{
+
+.row1 {
     display: flex;
     flex-direction: row;
     gap: 174px;
@@ -50,7 +53,56 @@
     padding-bottom: 16.15px;
 }
 
-.Cloud{
+.Cloud {
     position: absolute;
     z-index: 400;
+}
+.CounterBoxMobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 59.4px;
+    padding-left: 25px;
+}
+.CloudImgMob{
+    width: 100vw;
+}
+@media screen and (max-width: 480px) {
+    .CounterBox{
+        display: none;
+    }
+    .CounterHead {
+        font-size: 24px;
+        letter-spacing: 0.72px;
+    }
+
+    .Number {
+        font-size: 38.911px;
+        line-height: 48.639px;
+        /* 125% */
+        letter-spacing: 1.167px;
+    }
+
+    .LineSep {
+        width: 99px;
+        height: 7px;
+    }
+    .row1{
+        gap: 83px;
+    }
+    .CloudImg{
+        display: none;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1300px) {}
+
+@media (min-width: 1301px) {
+    .CounterBoxMobile{
+        display: none;
+    }
+    .CloudImgMob{
+        display: none;
+    }
 }

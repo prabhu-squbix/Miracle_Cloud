@@ -7,13 +7,13 @@
 .Banner {
     display: flex;
     flex-direction: column;
-    background-image: url(../assets/HeroBackground.gif);
+
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px;
     width: 100vw;
     height: 673px;
-    background-color: rgba(22, 3, 33, 0.75);
+
     background-blend-mode: multiply;
 }
 
@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: column;
     font-size: 54px;
-    color: white;
+    color: #fff;
     margin-top: 144px;
     font-style: normal;
     font-weight: 300;
@@ -32,10 +32,7 @@
 }
 
 .SpecialText {
-    background: linear-gradient(180deg, #FFF 25.37%, #5E1A89 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #5E1A89;
     font-size: 54px;
     font-style: normal;
     font-weight: 700;
@@ -115,4 +112,103 @@
     letter-spacing: 0.36px;
     padding-bottom: 71px;
     padding-top: 49px;
+}
+
+@media screen and (max-width: 480px) {
+    .Banner {
+        display: flex;
+        flex-direction: column;
+        background-image: url(../assets/HeroMobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        background-blend-mode: multiply;
+        padding: 0;
+    }
+
+    .FullBanner {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .MobileImg {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top: 20px;
+    }
+
+    .BannerText {
+        font-size: 28.435px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 45.744px;
+        /* 160.872% */
+        letter-spacing: 0.569px;
+        padding-left: 0;
+        position: relative;
+        text-align: center;
+        bottom: 90px;
+    }
+
+    .BannerBtns {
+        padding-top: 50px;
+        gap: 10px;
+    }
+
+    .SpecialText {
+        font-size: 29.784px;
+        line-height: 38.609px;
+        letter-spacing: 0.596px;
+    }
+
+    .MovingImg {
+        display: none;
+    }
+
+    .Close {
+        position: relative;
+        left: 155px;
+        bottom: 315px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1300px) {
+    .Banner {
+        display: flex;
+        flex-direction: column;
+        background-image: url(../assets/HeroBackground.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-color: rgba(22, 3, 33, 0.75); */
+        background-blend-mode: multiply;
+    }
+
+    .FullBanner {
+
+        width: 100vw;
+    }
+}
+
+@media (min-width: 1301px) {
+    .Banner {
+        display: flex;
+        flex-direction: column;
+        background-image: url(../assets/HeroBackground.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        /* background-color: rgba(22, 3, 33, 0.75); */
+        background-blend-mode: multiply;
+    }
+
+    .MobileImg {
+        width: 735.313px;
+        height: 679px;
+    }
+
+    .MovingImgMobile {
+        display: none;
+    }
 }

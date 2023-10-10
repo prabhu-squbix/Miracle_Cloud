@@ -17,24 +17,11 @@ export default function Hero() {
     setBtn2Active(set);
   }
 
-  const [showLine1, setShowLine1] = useState(false);
-  const [showLine2, setShowLine2] = useState(false);
-  const [showLine3, setShowLine3] = useState(false);
-  const [showDesc, setShowDesc] = useState(false);
+  const [showLine, setShowLine] = useState(false);
+
   useEffect(() => {
     setTimeout(() => {
-      setShowDesc(true);
-    }, 500);
-    setTimeout(() => {
-      setShowLine1(true);
-    }, 500);
-
-    setTimeout(() => {
-      setShowLine2(true);
-    }, 500);
-
-    setTimeout(() => {
-      setShowLine3(true);
+      setShowLine(true);
     }, 500);
   }, []);
 
@@ -58,38 +45,39 @@ export default function Hero() {
         </div>
         <div className='FullBanner'>
           <div className="BannerText" style={popupActive ? { display: "none" } : {}}>
-            {showLine1 && <motion.div
+            {showLine && <motion.div
               initial={{ opacity: 0, y: '-10px' }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
-            > <div id="Line1">Medical Care Now</div></motion.div>}
+            > <div id="Line1">Healthcare IT now Simplified
+              </div></motion.div>}
 
-            {showLine2 && (
+            {showLine && (
               <motion.div
                 initial={{ opacity: 0, y: '-10px' }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
               ><div id="Line2">
-                  Simplified For <span className="SpecialText">Everyone</span>
+                  for <span className="SpecialText">Everyone</span>
                 </div></motion.div>
             )}
-            {showDesc && (
+            {showLine && (
               <motion.div
-                initial={{ opacity: 0}}
+                initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 3 }}
               ><div className="BannerDesc">
                   <span style={{ fontWeight: "700" }}>Miracle on Cloud</span>, a game changing hospital technology, streamlines patient data & treatment strategies, boasting efficiency & improving outcomes
                 </div></motion.div>
             )}
-            {showLine3 && (
+            {showLine && (
               <motion.div
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.2 }}>
                 <div id="Line3" className="BannerBtns">
                   <Popup trigger=
-                    {<button className="btn1" id="btnOpenForm" onClick={handlePopupActive} onMouseOver={() => handleBtn1Active(1)} onMouseLeave={() => handleBtn1Active(0)} style={btn1Active === 1 ? { color: "#5E1A89", backgroundColor: "#fff",borderColor: "#fff" } : {}}>Request Demo</button>}
+                    {<button className="btn1" id="btnOpenForm" onClick={handlePopupActive} onMouseOver={() => handleBtn1Active(1)} onMouseLeave={() => handleBtn1Active(0)} style={btn1Active === 1 ? { color: "#5E1A89", backgroundColor: "#fff", borderColor: "#fff" } : {}}>Request Demo</button>}
                     modal nested>
                     {
                       close => (
@@ -117,11 +105,18 @@ export default function Hero() {
           </div>
           <div className='BannerImage'>
             <motion.div className='MovingImg'
-              initial={{ opacity: 1, y: '-3vh' }}
-              animate={{ opacity: 1, y: '3vh' }}
+              initial={{ opacity: 0.8, scale: 0.97 }}
+              animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 3, repeat: Infinity, repeatType: 'reverse' }}
             >
-              <img src={HeroImg} alt="Tech" />
+              <img className='MobileImg' src={HeroImg} alt="Tech" />
+            </motion.div>
+            <motion.div className='MovingImgMobile'
+              initial={{ opacity: 1, scale: 0.99 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 2, repeat: Infinity, repeatType: 'reverse' }}
+            >
+              <img className='MobileImg' src={HeroImg} alt="Tech" />
             </motion.div>
           </div>
         </div>
