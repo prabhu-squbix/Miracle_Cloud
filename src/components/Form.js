@@ -1,5 +1,5 @@
 import '../styles/Form.css';
-
+import React from 'react';
 export default function Form() {
     const windowWidth = (((window.innerWidth - 657) / 2) / window.innerWidth) * 100;
     return (

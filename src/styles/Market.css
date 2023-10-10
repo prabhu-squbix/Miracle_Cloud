@@ -1,0 +1,54 @@
+.MarketHeading {
+    color: #959595;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    padding-top: 88px;
+    padding-bottom: 24px;
+}
+
+.MarketSubHeading {
+    text-align: center;
+    color: #303030;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 32px */
+    padding-bottom: 89px;
+}
+
+.ProduList {
+    width: 1242.5px;
+    height: 334px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.EachProdu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.ProduIcon {
+    width: 50px;
+    height: 50.877px;
+    flex-shrink: 0;
+}
+
+.ProduName {
+    color: #303030;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 0.2px;
+}

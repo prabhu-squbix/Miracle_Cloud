@@ -2,7 +2,6 @@
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
-
     position: sticky;
     top: 0;
     box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.10);
@@ -52,6 +51,12 @@
 
 .ContactNo {
     color: #5E1A89;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.14px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -97,4 +102,103 @@
     line-height: 20px;
     letter-spacing: 0.28px;
     flex-shrink: 0;
+}
+
+
+.HamPage {
+    position: absolute;
+    top: 71px;
+    left: 0;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.65);
+    overflow-y: hidden;
+}
+
+.HamMenu {
+    height: 100vh;
+    margin-left: 70px;
+    background-color: #fff;
+    padding-top: 30px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.HamOption {
+    color: #959595;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 312.5% */
+    letter-spacing: 0.1px;
+}
+
+.MobileDropDownList {
+    list-style: none;
+    text-wrap: nowrap;
+}
+
+@media screen and (max-width: 480px) {
+    .MobLogo {
+        width: 92px;
+    }
+
+    .DropListItem {
+        color: #5E1A89;
+        padding: 0 0 27px 0;
+        position: relative;
+        left: -18px;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0.28px;
+        flex-shrink: 0;
+    }
+
+    .Navbar {
+        width: 80vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .Menu {
+        display: none;
+    }
+
+    .ContactNo {
+        display: none;
+    }
+
+    .BannerDesc {
+        display: none;
+    }
+
+    .BannerBtns {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1300px) {
+    .Menu {
+        display: none;
+    }
+
+    .ContactNo {
+        display: none;
+    }
+
+    .BannerDesc {
+        display: none;
+    }
+}
+
+@media (min-width: 1301px) {
+    .HamIcon {
+        display: none;
+    }
 }

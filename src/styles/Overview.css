@@ -27,6 +27,12 @@
     background-color: #FFF;
     filter: drop-shadow(0px 9.770597457885742px 39.54765701293945px rgba(0, 0, 0, 0.10));
     text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.ProductCard.hovered {
+    background-color: #f7ebfd;
+    filter: drop-shadow(0px 9.770597457885742px 39.54765701293945px rgba(0, 0, 0, 0));
 }
 
 .ProductName {
@@ -52,3 +58,59 @@
     letter-spacing: 0.28px;
     padding-bottom: 27px;
 }
+
+.MobileImgs {
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 480px) {
+    .ProductRow {
+        padding-left: 7.97vw;
+        padding-right: 7.9vw;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .OverviewHeading {
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.72px;
+    }
+
+    .ProductCard {
+        border-radius: 10px;
+        width: 159.53px;
+        height: 181.964px;
+        background-color: #FFF;
+        filter: drop-shadow(0px 9.770597457885742px 39.54765701293945px rgba(0, 0, 0, 0.10));
+        text-align: center;
+    }
+
+    .MobileImgs {
+        width: 159.53px;
+        padding-top: 8px;
+    }
+
+    .ProductName {
+        padding-top: 8px;
+    }
+
+    .ProductName {
+        font-size: 14px;
+    }
+
+    .ProductDesc {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1300px) {}
+
+@media (min-width: 1301px) {}

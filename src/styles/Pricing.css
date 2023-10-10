@@ -46,7 +46,6 @@
 }
 
 .EachPlan {
-    height: ;
     padding: 50px 40px;
     border-radius: 10px;
     border: 1px solid #DEDEDE;
@@ -136,3 +135,29 @@ line-height: 24px;
 letter-spacing: 0.2px;
 padding-bottom: 15px;
 }
+
+
+
+@media screen and (max-width: 480px) {
+    .PriceHead{
+        font-size: 24px;
+        letter-spacing: 0.72px;
+    }
+    /* .Plans {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 45px;
+        padding: 100px 30px;
+    }
+    .EachPlan {
+        padding: 50px 10px;
+        border-radius: 10px;
+        border: 1px solid #DEDEDE;
+        background: var(--light-background-color, #FFF);
+    } */
+}
+
+@media (min-width: 481px) and (max-width: 1300px) {}
+
+@media (min-width: 1301px) {}

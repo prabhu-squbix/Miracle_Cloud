@@ -1,11 +1,12 @@
 .Footer {
     height: 192px;
     flex-shrink: 0;
-    background: rgba(94, 26, 137, 0.05);
+    background-color: #290343;
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 70px;
+    padding-bottom: 20px;
 }
 
 .FooterLogo {
@@ -30,8 +31,8 @@
 }
 
 .SectionTitle {
-    color: #5E1A89;
-    font-size: 20px;
+    color: #fff;
+    font-size: 16x;
     font-style: normal;
     font-weight: 700;
     line-height: 28px;
@@ -39,7 +40,7 @@
 }
 
 .feature {
-    color: #303030;
+    color: #fff;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -52,14 +53,17 @@
     flex-direction: row;
     gap: 23px;
 }
-
+.fa-brands{
+    color: #fff;
+}
 .icon {
     font-size: 24px;
     color: #303030;
 }
 
 .copyrights {
-    color: #303030;
+    color: #959595;
+    background-color: #290343;
     text-align: center;
     font-size: 14px;
     font-style: normal;
@@ -68,4 +72,100 @@
     letter-spacing: 0.21px;
     padding-top: 14px;
     padding-bottom: 15px;
+}
+
+.MobileMenu {
+    flex-shrink: 0;
+    background: #290343;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 26px;
+    padding-bottom: 20px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.LogoSocials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.MobileLogo {
+    width: 92.852px;
+    height: 47.331px;
+}
+
+.MobileTitle {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 175% */
+    letter-spacing: 0.48px;
+}
+
+.MobileContent {
+    color: #fff;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.MobileTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.MobileFooterMenu {
+    padding-left: 2px;
+}
+
+.FooterSeparator {
+    background-color: #959595;
+    height: 0.4px;
+    opacity: 0.4;
+}
+
+.Mfeature {
+    padding-left: 20px;
+}
+.copyrightsMobile {
+    background-color: #290343;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.21px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+}
+.SearchGlasses{
+    color: #DDDDDD;
+    position: relative;
+    left: 310px;
+    bottom: 45px;
+}
+@media screen and (max-width: 480px) {
+    .icon {
+        color: #959595;
+    }
+    .FooterDesktop{
+        display: none;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1300px) {}
+
+@media (min-width: 1301px) {
+    .FooterMobile{
+        display: none;
+    }
 }

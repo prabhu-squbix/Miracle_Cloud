@@ -1,44 +1,44 @@
 [
     {
-        "id":1,
-        "img":"../OverviewProducts/ProdOverview1.png",
-        "productName":"HIS Starter",
-        "productDesc":"< 50 beds"
+        "id": 1,
+        "img": "../OverviewProducts/ProdOverview1.svg",
+        "productName": "HIS Starter",
+        "productDesc": "< 50 beds"
     },
     {
-        "id":2,
-        "img":"../OverviewProducts/ProdOverview2.png",
-        "productName":"HIS Advanced",
-        "productDesc":"50 - 100 beds"
+        "id": 2,
+        "img": "../OverviewProducts/ProdOverview2.svg",
+        "productName": "HIS Advanced",
+        "productDesc": "50 - 100 beds"
     },
     {
-        "id":3,
-        "img":"../OverviewProducts/ProdOverview3.png",
-        "productName":"EMR",
-        "productDesc":"This is dummy text"
+        "id": 3,
+        "img": "../OverviewProducts/ProdOverview3.svg",
+        "productName": "EMR",
+        "productDesc": "This is dummy text"
     },
     {
-        "id":4,
-        "img":"../OverviewProducts/ProdOverview4.png",
-        "productName":"LIS & RIS",
-        "productDesc":"Diagnostic & Scan centers"
+        "id": 4,
+        "img": "../OverviewProducts/ProdOverview4.svg",
+        "productName": "LIS & RIS",
+        "productDesc": "Diagnostic & Scan centers"
     },
     {
-        "id":5,
-        "img":"../OverviewProducts/ProdOverview5.png",
-        "productName":"Clinic",
-        "productDesc":"This is dummy text"
+        "id": 5,
+        "img": "../OverviewProducts/ProdOverview5.svg",
+        "productName": "Clinic",
+        "productDesc": "This is dummy text"
     },
     {
-        "id":6,
-        "img":"../OverviewProducts/ProdOverview6.png",
-        "productName":"PIS",
-        "productDesc":"This is dummy text"
+        "id": 6,
+        "img": "../OverviewProducts/ProdOverview6.svg",
+        "productName": "PIS",
+        "productDesc": "This is dummy text"
     },
     {
-        "id":7,
-        "img":"../OverviewProducts/ProdOverview6.png",
-        "productName":"Mobile Apps",
-        "productDesc":"This is dummy text"
+        "id": 7,
+        "img": "../OverviewProducts/ProdOverview6.svg",
+        "productName": "Mobile Apps",
+        "productDesc": "This is dummy text"
     }
 ]

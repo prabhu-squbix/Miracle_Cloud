@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "ProdImg": "../Product1_2.png",
-        "ProdName": "CLOUD HIS",
+        "ProdImg": "../Products/Cloud HIS Starter.png",
+        "ProdName": "Cloud HIS",
         "ProdCat":" - Starter",
         "ProdDesc": "For less than 50 beds",
         "Features": [
@@ -48,8 +48,8 @@
     },
     {
         "id": 2,
-        "ProdImg": "../Product1_2.png",
-        "ProdName": "CLOUD HIS",
+        "ProdImg": "../Products/Cloud HIS Advanced.png",
+        "ProdName": "Cloud HIS",
         "ProdCat":" - Advanced",
         "ProdDesc": "For 50-100 Beds",
         "Features": [
@@ -95,7 +95,7 @@
     },
     {
         "id": 3,
-        "ProdImg": "../Product3.png",
+        "ProdImg": "../Products/Cloud LIS.png",
         "ProdName": "Cloud LIS",
         "ProdCat":"",
         "ProdDesc": "Designed for single/multi-doctor clinics",
@@ -142,7 +142,7 @@
     },
     {
         "id": 4,
-        "ProdImg": "../Product3.png",
+        "ProdImg": "../Products/Cloud RIS.png",
         "ProdName": "Cloud RIS",
         "ProdCat":"",
         "ProdDesc": "Designed for single/multi-doctor clinics",
@@ -189,7 +189,7 @@
     },
     {
         "id": 5,
-        "ProdImg": "../Product5.png",
+        "ProdImg": "../Products/Cloud Clinic.png",
         "ProdName": "Cloud Clinic",
         "ProdCat":"",
         "ProdDesc": "Designed for single/multi-doctor clinics",
@@ -236,7 +236,7 @@
     },
     {
         "id": 6,
-        "ProdImg": "../Product5.png",
+        "ProdImg": "../Products/Cloud PIS.png",
         "ProdName": "Cloud PIS",
         "ProdCat":" - Pharmacy",
         "ProdDesc": "Designed for single/multi-doctor clinics",
@@ -268,7 +268,7 @@
     },
     {
         "id": 7,
-        "ProdImg": "../Product5.png",
+        "ProdImg": "../Products/Cloud EMR.png",
         "ProdName": "Cloud EMR",
         "ProdCat":"",
         "ProdDesc": "",

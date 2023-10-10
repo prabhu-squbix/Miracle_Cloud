@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "icon": "./MarketProducts/icon1.png",
+        "product": "Booking Appointment"
+    },
+    {
+        "id": 2,
+        "icon": "./MarketProducts/icon2.png",
+        "product": "AI based Chatbot"
+    },
+    {
+        "id": 3,
+        "icon": "./MarketProducts/icon3.png",
+        "product": "Patient Portal"
+    },
+    {
+        "id": 4,
+        "icon": "./MarketProducts/icon4.png",
+        "product": "Quality Management System"
+    },
+    {
+        "id": 5,
+        "icon": "./MarketProducts/icon5.png",
+        "product": "Tele-consultation"
+    },
+    {
+        "id": 6,
+        "icon": "./MarketProducts/icon6.png",
+        "product": "POS device"
+    },
+    {
+        "id": 7,
+        "icon": "./MarketProducts/icon7.png",
+        "product": "Ngage"
+    },
+    {
+        "id": 8,
+        "icon": "./MarketProducts/icon8.png",
+        "product": "Whatsapp"
+    },
+    {
+        "id": 9,
+        "icon": "./MarketProducts/icon9.png",
+        "product": "PACs"
+    },
+    {
+        "id": 10,
+        "icon": "./MarketProducts/icon10.png",
+        "product": "Payment Gateway"
+    },
+    {
+        "id": 11,
+        "icon": "./MarketProducts/icon11.png",
+        "product": "Doctor Ap"
+    },
+    {
+        "id": 12,
+        "icon": "./MarketProducts/icon12.png",
+        "product": "Patient App"
+    }
+]

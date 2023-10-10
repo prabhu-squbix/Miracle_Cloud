@@ -126,3 +126,49 @@
     background: #F9F9F9;
     resize: none;
 }
+
+
+@media screen and (max-width: 480px) {
+    .PopForm {
+        position: fixed;
+        padding-top: 35px;
+        top: 50px;
+        left: 0;
+    }
+    .FormInputs{
+        flex-direction: column;
+    }
+    .Form {
+        width: 100vw;
+        height: 750px;
+        position: relative;
+        left: 0;
+    }
+    .Msg {
+        padding-top: 10px;
+        padding-left: 10px;
+        width: 340px;
+        height: 80px;
+        border-radius: 5px;
+        border: 1px solid #DDD;
+        background: #F9F9F9;
+        resize: none;
+    }
+    .ColOne{
+        position: relative;
+        left: 0;
+    }
+    .InputText{
+        width: 340px;
+    }
+    .OptionSelector{
+        width: 357px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1300px) {
+}
+
+@media (min-width: 1301px) {
+    
+}

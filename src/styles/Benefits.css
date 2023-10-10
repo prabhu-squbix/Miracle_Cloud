@@ -44,3 +44,30 @@
     width: 83.82px;
     height: 83.82px;
 }
+
+@media screen and (max-width: 480px) {
+    .BenefitList {
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        flex-wrap: wrap;
+        text-wrap: wrap;
+        width: 100vw;
+    }
+
+    .ListItem {
+        padding-bottom: 20px;
+    }
+
+    .BeneTopic {
+        font-size: 24px;
+        font-weight: 400;
+        letter-spacing: 0.72px;
+        padding-bottom: 54px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1300px) {}
+
+@media (min-width: 1301px) {}

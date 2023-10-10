@@ -1,0 +1,79 @@
+.PartnerHeading {
+    color: #959595;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    padding-top: 88px;
+    padding-bottom: 88px;
+    text-align: center;
+}
+
+.PartnerDesc {
+    display: flex;
+    flex-direction: column;
+    padding-left: 6.94vw;
+    padding-right: 6.94vw;
+    gap: 40px;
+    padding-bottom: 69px;
+}
+
+.Line1,
+.Line2 {
+    color: #303030;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 32px */
+}
+
+.Managers {
+    display: flex;
+    gap: 52.6px;
+    padding-bottom: 577px;
+    padding-left: 6.94vw;
+}
+
+.EachManager {
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+}
+
+.ManagerName {
+    color: #303030;
+    font-size: 22.177px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ManagerPos {
+    color: #5E1A89;
+    font-size: 15.524px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.679px;
+    /* 184.741% */
+    padding-top: 5.37px;
+    padding-bottom: 10.92px;
+}
+
+.ManagerMail {
+    padding-bottom: 5px;
+}
+
+.ManagerMail,
+.ManagerContact {
+    display: flex;
+    gap: 10px;
+    color: #303030;
+    font-size: 18.79px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.184px;
+    /* 150% */
+    letter-spacing: 0.188px;
+}

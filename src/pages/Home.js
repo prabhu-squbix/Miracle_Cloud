@@ -1,5 +1,4 @@
 import Benefits from "../components/Benefits";
-import ChartFlows from "../components/ChartFlows";
 import Different from "../components/Different";
 import Hero from "../components/Hero";
 import Marq from "../components/Marq";
@@ -31,9 +30,6 @@ export default function Healthcare() {
             </div>
             <div className="components">
                 <Testimonial />
-            </div>
-            <div className="components">
-                <ChartFlows />
             </div>
         </div>
     );
